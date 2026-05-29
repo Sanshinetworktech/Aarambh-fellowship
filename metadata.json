@@ -1,0 +1,6 @@
+{
+  "name": "Aarambh Fellowship",
+  "description": "Premium landing page and role explorer for the Aarambh Fellowship program by Sanshi Network Tech Private Limited.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
