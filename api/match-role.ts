@@ -1,20 +1,14 @@
-import express from "express";
-import path from "path";
-import { createServer as createViteServer } from "vite";
+import { Request, Response } from "express";
 import { GoogleGenAI } from "@google/genai";
-import dotenv from "dotenv";
-import { FELLOWSHIP_ROLES, evaluateResumeLocally } from "./src/lib/evaluator.js";
+import { evaluateResumeLocally } from "../src/lib/evaluator";
 
-dotenv.config();
+export default async function handler(req: Request, res: Response) {
+  // Only accept POST requests for analysis
+  if (req.method !== "POST") {
+    return res.status(405).json({ error: "Method not allowed. Use POST." });
+  }
 
-const app = express();
-const PORT = 3000;
-
-app.use(express.json({ limit: "5mb" }));
-
-// REST route for Smart Matching
-app.post("/api/match-role", async (req, res) => {
-  const { resumeText } = req.body;
+  const { resumeText } = req.body || {};
   if (!resumeText || typeof resumeText !== "string" || resumeText.trim().length === 0) {
     return res.status(400).json({ error: "Missing resume details to evaluate." });
   }
@@ -22,10 +16,9 @@ app.post("/api/match-role", async (req, res) => {
   const geminiKey = process.env.GEMINI_API_KEY;
 
   if (!geminiKey || geminiKey === "MY_GEMINI_API_KEY") {
-    // Graceful offline fallback
     console.log("No GEMINI_API_KEY found or default value matches. Falling back to local keyword evaluator.");
     const result = evaluateResumeLocally(resumeText);
-    return res.json({ ...result, fallback: true });
+    return res.status(200).json({ ...result, fallback: true });
   }
 
   try {
@@ -80,34 +73,11 @@ Analyze the candidate's custom text Dossier / CV and return a JSON object with t
     });
 
     const parsedResponse = JSON.parse(response.text || "{}");
-    return res.json({ ...parsedResponse, fallback: false });
+    return res.status(200).json({ ...parsedResponse, fallback: false });
   } catch (error: any) {
-    console.error("Gemini model execution failed:", error);
+    console.error("Gemini model execution failed on Vercel:", error);
     // Safe fallback to local keyword parser on API failure
     const fallbackResult = evaluateResumeLocally(resumeText);
-    return res.json({ ...fallbackResult, fallback: true });
+    return res.status(200).json({ ...fallbackResult, fallback: true });
   }
-});
-
-// Configure Vite middleware or index.html serving
-async function startServer() {
-  if (process.env.NODE_ENV !== "production") {
-    const vite = await createViteServer({
-      server: { middlewareMode: true },
-      appType: "spa",
-    });
-    app.use(vite.middlewares);
-  } else {
-    const distPath = path.join(process.cwd(), "dist");
-    app.use(express.static(distPath));
-    app.get("*", (req, res) => {
-      res.sendFile(path.join(distPath, "index.html"));
-    });
-  }
-
-  app.listen(PORT, "0.0.0.0", () => {
-    console.log(`[Aarambh Server] Server online at http://localhost:${PORT}`);
-  });
 }
-
-startServer();

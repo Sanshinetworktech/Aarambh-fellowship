@@ -25,7 +25,7 @@ export const CompensationDeck: React.FC = () => {
   };
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 border-b border-blue-105 bg-blue-50/10" id="perks-section">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-blue-50/10" id="perks-section">
       <div className="max-w-7xl mx-auto animate-fade-in">
         
         {/* Header segment */}

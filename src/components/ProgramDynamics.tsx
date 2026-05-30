@@ -9,7 +9,7 @@ export const ProgramDynamics: React.FC = () => {
   const activeSeasonData = SEASONS.find((s) => s.id === selectedSeason) || SEASONS[0];
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 border-b border-blue-100 bg-white" id="philosophy-section">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white" id="philosophy-section">
       <div className="max-w-7xl mx-auto">
         
         {/* Core Philosophy & Quote */}

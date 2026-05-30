@@ -36,7 +36,7 @@ export const AdmissionPathway: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 border-b border-blue-105 bg-white" id="enrollment-pathway">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white" id="enrollment-pathway">
       <div className="max-w-7xl mx-auto">
         
         {/* Header segment */}

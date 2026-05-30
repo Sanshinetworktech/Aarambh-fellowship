@@ -26,7 +26,7 @@ export const LiveDeploymentMatrix: React.FC = () => {
   };
 
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8 border-b border-blue-100 bg-linear-to-b from-white via-blue-50/10 to-white relative" id="channels-section">
+    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-linear-to-b from-white via-blue-50/10 to-white relative" id="channels-section">
       <div className="absolute inset-0 bg-[radial-gradient(#bfdbfe_1px,transparent_1px)] [background-size:32px_32px] opacity-10 pointer-events-none" />
       
       <div className="max-w-7xl mx-auto relative z-10">

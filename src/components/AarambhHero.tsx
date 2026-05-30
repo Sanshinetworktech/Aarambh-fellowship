@@ -8,7 +8,7 @@ interface HeroProps {
 
 export const AarambhHero: React.FC<HeroProps> = ({ onExploreRoles }) => {
   return (
-    <div className="relative min-h-[92vh] flex items-center justify-center overflow-hidden py-24 px-4 sm:px-6 md:px-8 border-b border-blue-150/40 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-50/20 via-white to-white" id="aarambh-hero-section">
+    <div className="relative min-h-[92vh] flex items-center justify-center overflow-hidden py-24 px-4 sm:px-6 md:px-8 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-50/20 via-white to-white" id="aarambh-hero-section">
       
       {/* ── ACETERNITY-INSPIRED BACKGROUND LAYERS ──────────────────────── */}
       
@@ -42,20 +42,6 @@ export const AarambhHero: React.FC<HeroProps> = ({ onExploreRoles }) => {
         className="absolute bottom-[10%] right-[10%] w-[30rem] h-[30rem] rounded-full bg-blue-500/5 blur-3xl pointer-events-none" 
       />
 
-      {/* 3. Horizontal and Vertical Background Grid Lines */}
-      <div className="absolute inset-0 pointer-events-none opacity-20">
-        {/* Horizontal lines */}
-        <div className="absolute top-[20%] left-0 right-0 h-[1px] bg-blue-200/50" />
-        <div className="absolute top-[40%] left-0 right-0 h-[1px] bg-blue-200/50" />
-        <div className="absolute top-[60%] left-0 right-0 h-[1px] bg-blue-200/50" />
-        <div className="absolute top-[80%] left-0 right-0 h-[1px] bg-blue-200/50" />
-        
-        {/* Vertical lines */}
-        <div className="absolute top-0 bottom-0 left-[20%] w-[1px] bg-blue-200/50" />
-        <div className="absolute top-0 bottom-0 left-[40%] w-[1px] bg-blue-200/50" />
-        <div className="absolute top-0 bottom-0 left-[60%] w-[1px] bg-blue-200/50" />
-        <div className="absolute top-0 bottom-0 left-[80%] w-[1px] bg-blue-200/50" />
-      </div>
 
       {/* 4. Tiny Micro Grid Overlay */}
       <div className="absolute inset-0 bg-[radial-gradient(#93c5fd_1px,transparent_1px)] [background-size:32px_32px] opacity-15 pointer-events-none z-0" />

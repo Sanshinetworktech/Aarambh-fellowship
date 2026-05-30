@@ -25,7 +25,7 @@ export const RoleExplorer: React.FC = () => {
   }, [searchTerm, activeCategory]);
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 border-b border-blue-100 bg-white relative" id="roles-section">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white relative" id="roles-section">
       <div className="max-w-7xl mx-auto">
         
         {/* Header segment */}
