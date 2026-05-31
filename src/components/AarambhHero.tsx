@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { ShieldCheck, MapPin, Sparkles, Send, ArrowUpRight } from "lucide-react";
+import BadgeTag from "./ui/badge-tag";
 
 interface HeroProps {
   onExploreRoles: () => void;
@@ -49,21 +50,14 @@ export const AarambhHero: React.FC<HeroProps> = ({ onExploreRoles }) => {
       {/* ── CENTRAL PREMIUM HERO CONTENT ────────────────────────────── */}
       <div className="relative w-full max-w-5xl mx-auto flex flex-col items-center text-center z-10">
         
-        {/* Top Active Cohort Tag with elegant motion slide */}
+        {/* Announcement Badges */}
         <motion.div
-          initial={{ opacity: 0, y: -25 }}
+          initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="inline-flex items-center gap-2 py-1.5 px-4 bg-white/80 hover:bg-white border border-blue-200/60 rounded-full mb-10 shadow-sm backdrop-blur-md transition-all cursor-default"
-          id="active-season-pill"
+          className="flex flex-col items-center justify-center gap-3 mb-8 w-full max-w-md px-4"
         >
-          <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
-          </span>
-          <span className="font-mono text-[10.5px] font-bold tracking-wider uppercase text-blue-700">
-            Admissions Active • Varsha Season 1 • 10 Spots Only
-          </span>
+          <BadgeTag />
         </motion.div>
  
         {/* Master Branding Title & Text with Aceternity Visual Flow */}
@@ -97,7 +91,7 @@ export const AarambhHero: React.FC<HeroProps> = ({ onExploreRoles }) => {
           transition={{ duration: 0.7, delay: 0.25 }}
           className="max-w-3xl mb-12 text-center"
         >
-          <p className="text-slate-700 font-sans text-base sm:text-xl font-medium leading-relaxed mb-6">
+          <p className="text-slate-950 font-sans text-base sm:text-xl font-semibold leading-relaxed mb-6">
             Ten handpicked fellows receive direct system ownership to build, deploy, and scale live platforms across WiseIn, Brutal Stories, and Wisein Key.
           </p>
           <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-3 pt-4 border-t border-blue-50/70 max-w-2xl mx-auto">

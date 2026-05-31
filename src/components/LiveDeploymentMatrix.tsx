@@ -43,7 +43,7 @@ export const LiveDeploymentMatrix: React.FC = () => {
           <h2 className="text-3xl sm:text-5xl font-extrabold font-sans text-slate-900 tracking-tight mb-4">
             Live Workspace Initiatives
           </h2>
-          <p className="text-sm sm:text-base text-slate-650 font-medium leading-relaxed max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base text-slate-950 font-semibold leading-relaxed max-w-2xl mx-auto">
             Every fellow is given direct access, ownership, and contribution targets across three active production products managed by Sanshi Network Tech Private Limited.
           </p>
         </div>
@@ -91,7 +91,7 @@ export const LiveDeploymentMatrix: React.FC = () => {
                 </p>
 
                 {/* Practical Description */}
-                <p className="text-slate-600 font-sans text-xs sm:text-sm font-medium leading-relaxed mb-6">
+                <p className="text-slate-955 font-sans text-xs sm:text-sm font-bold leading-relaxed mb-6">
                   {channel.description}
                 </p>
 
@@ -184,8 +184,8 @@ export const LiveDeploymentMatrix: React.FC = () => {
           <div className="w-12 h-12 rounded-full bg-blue-50 flex-shrink-0 flex items-center justify-center border border-blue-100">
             <ShieldAlert className="w-5.5 h-5.5 text-blue-600" />
           </div>
-          <p className="font-sans text-xs sm:text-[13px] text-slate-600 font-medium leading-relaxed">
-            <strong className="text-blue-950 font-bold">Regulatory Declaration:</strong> All three systems are operational corporate mechanisms managed by Sanshi Network Tech Private Limited. Unverified profiles, fake credentials, and academic simulators are systematically restricted. Real work has real liabilities and rewards.
+          <p className="font-sans text-xs sm:text-[13px] text-slate-950 font-semibold leading-relaxed">
+            <strong className="text-black font-extrabold">Regulatory Declaration:</strong> All three systems are operational corporate mechanisms managed by Sanshi Network Tech Private Limited. Unverified profiles, fake credentials, and academic simulators are systematically restricted. Real work has real liabilities and rewards.
           </p>
         </div>
 

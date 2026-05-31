@@ -37,8 +37,8 @@ export const CompensationDeck: React.FC = () => {
           <h2 className="text-3xl sm:text-4xl font-bold font-sans text-blue-900 mb-4">
             What Fellows Receive
           </h2>
-          <p className="text-sm sm:text-base text-blue-800/85 font-light leading-relaxed">
-            This is an <strong className="text-blue-900 font-bold">equity-in-experience model (No stipend)</strong>. 
+          <p className="text-sm sm:text-base text-slate-950 font-normal leading-relaxed">
+            This is an <strong className="text-black font-extrabold">equity-in-experience model (No stipend)</strong>. 
             Sanshi Network Tech Private Limited funds 100% of physical operations, premium developer workspaces, commute costs, high-speed home connections, and uncensored exposure to real operational assets.
           </p>
         </div>
@@ -71,12 +71,12 @@ export const CompensationDeck: React.FC = () => {
                     {perk.tag}
                   </span>
 
-                  <p className="text-blue-800 font-sans text-xs sm:text-sm font-semibold leading-relaxed mb-4">
+                  <p className="text-slate-955 font-sans text-xs sm:text-sm font-semibold leading-relaxed mb-4">
                     {perk.description}
                   </p>
                 </div>
 
-                <div className="pt-3 border-t border-blue-100 text-[10px] sm:text-xs font-sans text-blue-600 font-medium italic">
+                <div className="pt-3 border-t border-blue-100 text-[10px] sm:text-xs font-sans text-slate-950 font-bold italic">
                   {perk.detail}
                 </div>
               </div>
@@ -90,7 +90,7 @@ export const CompensationDeck: React.FC = () => {
             <span className="font-mono text-[9px] text-blue-700 uppercase tracking-widest block mb-1 font-bold">
               Employment Pipeline Note
             </span>
-            <p className="font-sans text-sm text-blue-900 font-medium max-w-2xl leading-relaxed">
+            <p className="font-sans text-sm text-slate-955 font-semibold max-w-2xl leading-relaxed">
               We look for continuous builders. Outstanding execution throughout the 91 Days in Hyderabad leads directly to a formal in-person full-time employment proposal with equity shares and standard tech compensation packages.
             </p>
           </div>

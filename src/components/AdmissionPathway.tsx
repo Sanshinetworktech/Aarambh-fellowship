@@ -6,7 +6,7 @@ export const AdmissionPathway: React.FC = () => {
     {
       step: "01",
       title: "Create a WiseIn Profile",
-      desc: "Create your verified profile on wisein.in",
+      desc: "Create your verified profile on Apply on WiseIN",
       impact: "Creates central node coordinates"
     },
     {
@@ -48,11 +48,11 @@ export const AdmissionPathway: React.FC = () => {
           <h2 className="text-2xl sm:text-3xl font-bold font-sans text-blue-900 mb-4">
             We select people who already build.
           </h2>
-          <div className="text-sm text-blue-800/85 font-light leading-relaxed space-y-4">
+          <div className="text-sm text-slate-950 font-normal leading-relaxed space-y-4">
             <p>
-              Applicants may submit: <span className="text-blue-700 font-semibold font-mono">projects · products · writing · outreach work · design systems · engineering work · community initiatives · operational experience</span>
+              Applicants may submit: <span className="text-black font-bold font-mono bg-slate-50 border border-slate-200 px-1.5 py-0.5 rounded shadow-2xs">projects · products · writing · outreach work · design systems · engineering work · community initiatives · operational experience</span>
             </p>
-            <p className="text-blue-900 font-semibold text-base">
+            <p className="text-black font-extrabold text-base">
               We care less about credentials and more about proof of execution.
             </p>
           </div>
@@ -78,7 +78,7 @@ export const AdmissionPathway: React.FC = () => {
                 <h3 className="font-serif text-lg font-bold text-blue-900 mt-1 mb-2 group-hover:text-blue-700 transition-colors">
                   {item.title}
                 </h3>
-                <p className="text-blue-800 font-sans text-xs sm:text-sm font-semibold leading-relaxed mb-6">
+                <p className="text-slate-955 font-sans text-xs sm:text-sm font-bold leading-relaxed mb-6">
                   {item.desc}
                 </p>
               </div>
@@ -109,7 +109,7 @@ export const AdmissionPathway: React.FC = () => {
             </div>
           </div>
 
-          <p className="font-sans text-xs sm:text-sm text-blue-800 font-semibold leading-relaxed mb-6">
+          <p className="font-sans text-xs sm:text-sm text-slate-955 font-bold leading-relaxed mb-6">
             At the conclusion of the residency, every fellow submits a concise operational report documenting:
           </p>
 
@@ -126,14 +126,14 @@ export const AdmissionPathway: React.FC = () => {
                 <span className="font-mono text-[10px] text-blue-700 font-bold bg-blue-50 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200">
                   {i + 1}
                 </span>
-                <span className="font-mono text-xs text-blue-900 capitalize font-semibold">
+                <span className="font-mono text-xs text-slate-955 capitalize font-bold">
                   {bullet}
                 </span>
               </div>
             ))}
           </div>
 
-          <p className="font-sans text-xs text-blue-600 font-medium italic text-center sm:text-left pt-2 border-t border-blue-100">
+          <p className="font-sans text-xs text-slate-950 font-bold italic text-center sm:text-left pt-2 border-t border-blue-100">
             The report becomes part of the fellow’s verified proof-of-work archive under Sanshi Network Tech Pvt. Ltd.
           </p>
         </div>
@@ -144,9 +144,9 @@ export const AdmissionPathway: React.FC = () => {
             <ShieldCheck className="w-6 h-6 text-blue-600" />
           </div>
           <div className="text-left">
-            <h4 className="font-sans text-sm font-bold text-blue-800 mb-1">Mandatory Vetting Condition</h4>
-            <p className="font-sans text-xs text-blue-900 font-semibold leading-relaxed">
-              Submissions without a 100% complete, Aadhaar-verified profile saved on <strong className="text-blue-950 font-extrabold">wisein.in</strong> will be immediately and permanently disregarded by our review desks.
+            <h4 className="font-sans text-sm font-bold text-slate-950 mb-1">Mandatory Vetting Condition</h4>
+            <p className="font-sans text-xs text-slate-950 font-bold leading-relaxed">
+              Submissions without a 100% complete, Aadhaar-verified profile saved on <strong className="text-black font-extrabold underline">Apply on WiseIN</strong> will be immediately and permanently disregarded by our review desks.
             </p>
           </div>
         </div>
@@ -154,14 +154,14 @@ export const AdmissionPathway: React.FC = () => {
         {/* Core Quick Application trigger */}
         <div className="text-center">
           <a
-            href="https://wisein.in"
+            href="https://wisein.in/jobs"
             target="_blank"
             referrerPolicy="no-referrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-blue-600 hover:bg-blue-750 text-white font-sans text-sm font-bold uppercase rounded-sm shadow-xs transition-all cursor-pointer group"
             id="url-wisein-open"
           >
             <ExternalLink className="w-4 h-4 shrink-0 text-white" />
-            <span>Begin Main Application (WiseIn)</span>
+            <span>Apply on WiseIN</span>
           </a>
         </div>
 
