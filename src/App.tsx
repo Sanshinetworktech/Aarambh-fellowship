@@ -232,17 +232,20 @@ export default function App() {
 
             <div className="md:col-span-3 space-y-4">
               <span className="font-mono text-[10px] text-blue-600 tracking-wider block uppercase font-bold">
-                Follow for Updates
+                Platform Navigation
               </span>
               <div className="space-y-3 pt-1">
                 <a
-                  href="https://twitter.com/mannupaaji"
+                  href="https://www.wisein.in/home"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white hover:bg-slate-50 border border-slate-200/80 text-xs text-slate-900 hover:text-blue-600 font-bold shadow-2xs transition-all duration-350 group cursor-pointer"
                 >
-                  <span className="text-blue-500 font-black font-serif">𝕏</span>
-                  <span>Twitter @mannupaaji</span>
+                  <svg className="w-4 h-4 text-blue-600 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    <path d="m9 11 2 2 4-4" />
+                  </svg>
+                  <span>WiseIn Home</span>
                   <ArrowUpRight className="w-3 h-3 text-slate-400 group-hover:text-blue-550 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                 </a>
                 
