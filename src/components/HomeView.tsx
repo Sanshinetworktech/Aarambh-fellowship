@@ -15,6 +15,13 @@ import {
   Users
 } from "lucide-react";
 
+// @ts-ignore
+import wiseInBedroom from "../assets/images/wisein_bedroom_creation_1780196514474.png";
+// @ts-ignore
+import wiseInHackathon from "../assets/images/wisein_hackathon_launch_1780196532321.png";
+// @ts-ignore
+import wiseInFounder from "../assets/images/wisein_founder_santhosh_1780196548742.png";
+
 interface HomeViewProps {
   onNavigate: (page: string) => void;
 }
@@ -115,6 +122,119 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
             </button>
           </motion.div>
 
+        </div>
+      </div>
+
+      {/* ── RESIDENCY LIFE & PREVIOUS COHORTS GALLERY ─────────────────── */}
+      <div className="bg-white py-14 border-b border-slate-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-slate-100">
+            <div className="text-left">
+              <span className="font-mono text-[9px] text-blue-600 uppercase tracking-widest block mb-2 font-bold select-none">
+                PREVIOUS COHORTS & WORKING RESIDENCY
+              </span>
+              <h2 className="text-xl sm:text-2xl font-black font-sans text-slate-900 tracking-tight">
+                Corporate Sandbox & Team Life
+              </h2>
+            </div>
+            <button
+              onClick={() => onNavigate("about")}
+              className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:text-blue-800 font-bold uppercase font-mono mt-3 md:mt-0 group cursor-pointer transition-colors"
+            >
+              <span>Learn About Sanshi Operations</span>
+              <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+            </button>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            {/* Image card 1 */}
+            <div 
+              onClick={() => onNavigate("about")}
+              className="group cursor-pointer block text-left"
+            >
+              <div className="overflow-hidden rounded-2xl bg-slate-100 aspect-16/10 mb-3 border border-slate-100 shadow-2xs group-hover:shadow-xs transition-all duration-300">
+                <img 
+                  src={wiseInBedroom} 
+                  alt="Built from a Bedroom in Hyderabad" 
+                  className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="flex items-start justify-between gap-2 px-1">
+                <div>
+                  <h4 className="text-xs sm:text-sm font-bold text-slate-900">Built from a Bedroom in Hyderabad</h4>
+                  <p className="text-[11px] text-slate-500 font-medium font-mono">WiseIn History · Product Conceptualization</p>
+                </div>
+                <Users className="w-3.5 h-3.5 text-slate-300 mt-1 shrink-0" />
+              </div>
+            </div>
+
+            {/* Image card 2 */}
+            <div 
+              onClick={() => onNavigate("about")}
+              className="group cursor-pointer block text-left"
+            >
+              <div className="overflow-hidden rounded-2xl bg-slate-100 aspect-16/10 mb-3 border border-slate-100 shadow-2xs group-hover:shadow-xs transition-all duration-300">
+                <img 
+                  src={wiseInHackathon} 
+                  alt="April 2025 College Hackathon" 
+                  className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="flex items-start justify-between gap-2 px-1">
+                <div>
+                  <h4 className="text-xs sm:text-sm font-bold text-slate-900">April 2025 Hackathon Launch</h4>
+                  <p className="text-[11px] text-slate-500 font-medium font-mono">Platform Genesis · First 50 Users</p>
+                </div>
+                <MapPin className="w-3.5 h-3.5 text-slate-300 mt-1 shrink-0" />
+              </div>
+            </div>
+
+            {/* Image card 3 */}
+            <div 
+              onClick={() => onNavigate("about")}
+              className="group cursor-pointer block text-left sm:col-span-2 lg:col-span-1"
+            >
+              <div className="overflow-hidden rounded-2xl bg-slate-100 aspect-16/10 mb-3 border border-slate-100 shadow-2xs group-hover:shadow-xs transition-all duration-300">
+                <img 
+                  src={wiseInFounder} 
+                  alt="Vanaparthi Santhosh" 
+                  className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="flex items-start justify-between gap-2 px-1">
+                <div>
+                  <h4 className="text-xs sm:text-sm font-bold text-slate-900">Vanaparthi Santhosh</h4>
+                  <p className="text-[11px] text-slate-500 font-medium font-mono">Founder & CEO · Product Designer</p>
+                </div>
+                <Award className="w-3.5 h-3.5 text-slate-300 mt-1 shrink-0" />
+              </div>
+            </div>
+          </div>
+
+          {/* Coordinate Map Pin Section (Containerless layout) */}
+          <div className="flex flex-col sm:flex-row items-center sm:justify-between px-2 py-4 border-t border-dashed border-slate-150 gap-4">
+            <div className="flex items-center gap-2.5 text-left">
+              <div className="p-2 rounded-xl bg-blue-50 text-blue-600 shrink-0">
+                <MapPin className="w-5 h-5" />
+              </div>
+              <div>
+                <p className="text-[11px] font-mono text-slate-400 font-bold uppercase tracking-wide">PHYSICAL NODE COORDINATES</p>
+                <p className="text-xs text-slate-700 font-semibold leading-tight">Sanshi Network Tech Private Limited, L.B. Nagar, Hyderabad, Telangana, India</p>
+              </div>
+            </div>
+            <a 
+              href="https://www.google.com/maps/place/Sanshi+Network+Tech+Private+Limited/@17.311603,78.5445893,15z/data=!3m1!4b1!4m6!3m5!1s0x6785cd30a1885311:0x76603f5e9b5b9be2!8m2!3d17.3115828!4d78.554889!16s%2Fg%2F11wj9bmrmk?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-flex items-center gap-1 bg-slate-50 hover:bg-slate-100 border border-slate-200/90 text-[11px] font-mono font-bold text-slate-700 uppercase px-4 py-2 rounded-lg transition-colors cursor-pointer shrink-0"
+            >
+              <span>View Location on Maps</span>
+              <ArrowUpRight className="w-3.5 h-3.5 text-slate-400" />
+            </a>
+          </div>
         </div>
       </div>
 
