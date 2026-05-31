@@ -75,7 +75,7 @@ export const AdmissionPathway: React.FC = () => {
                 <span className="font-mono text-[10px] text-blue-600 uppercase tracking-widest font-bold">
                   Step {item.step}
                 </span>
-                <h3 className="font-serif text-lg font-bold text-blue-900 mt-1 mb-2 group-hover:text-blue-700 transition-colors">
+                <h3 className="font-sans text-base sm:text-lg text-slate-900 font-extrabold mt-1 mb-2 group-hover:text-blue-750 transition-colors uppercase tracking-tight">
                   {item.title}
                 </h3>
                 <p className="text-slate-955 font-sans text-xs sm:text-sm font-bold leading-relaxed mb-6">
@@ -100,7 +100,7 @@ export const AdmissionPathway: React.FC = () => {
               <span className="font-mono text-[10px] text-blue-600 uppercase tracking-widest block mb-1 font-bold">
                 Residency Offboarding Requirement
               </span>
-              <h3 className="font-serif text-2xl font-bold text-blue-900">
+              <h3 className="font-sans text-xl sm:text-2xl font-black text-slate-900 uppercase tracking-tight">
                 Final Operator Report
               </h3>
             </div>

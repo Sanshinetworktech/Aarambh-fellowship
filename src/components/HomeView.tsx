@@ -470,7 +470,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
 
           <div className="mt-12 p-6 rounded-2xl bg-zinc-900 text-white flex gap-4 items-start border border-zinc-800">
             <div className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center border border-zinc-700 shrink-0 mt-0.5">
-              <span className="font-serif font-black text-blue-500 text-lg">!</span>
+              <span className="font-sans font-black text-blue-500 text-lg">!</span>
             </div>
             <div>
               <h4 className="text-sm font-bold uppercase tracking-wider font-mono text-blue-400 mb-1">Regulatory Declaration</h4>

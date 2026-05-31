@@ -63,7 +63,7 @@ export const CompensationDeck: React.FC = () => {
                     </div>
                   </div>
 
-                  <h3 className="font-serif text-lg font-bold text-blue-900 mb-2 group-hover:text-blue-700 transition-colors">
+                  <h3 className="font-sans text-base sm:text-lg font-extrabold text-slate-900 mb-2 group-hover:text-blue-750 transition-colors uppercase tracking-tight">
                     {perk.title}
                   </h3>
                   

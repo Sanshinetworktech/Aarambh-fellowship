@@ -153,7 +153,7 @@ export default function FellowshipView() {
               </h2>
               <div className="text-sm sm:text-base text-slate-950 font-medium space-y-4 leading-relaxed">
                 <p>
-                  Aarambh is a **13-week in-person operator residency** in Hyderabad, India. Ten selected fellows work directly on three live production systems operated by Sanshi Network Tech Private Limited. There are no simulations, no mock assignments, and no hypothetical case studies.
+                  Aarambh is a <strong className="text-slate-900 font-extrabold">13-week in-person operator residency</strong> in Hyderabad, India. Ten selected fellows work directly on three live production systems operated by Sanshi Network Tech Private Limited. There are no simulations, no mock assignments, and no hypothetical case studies.
                 </p>
                 <p>
                   Every deliverable affects real users. Every decision moves a real metric.
@@ -693,10 +693,10 @@ export default function FellowshipView() {
             <div>
               <h4 className="text-sm font-bold uppercase tracking-wider font-mono text-blue-400 mb-2">Zoho Operations Protocol</h4>
               <p className="text-xs sm:text-sm text-slate-300 font-semibold leading-relaxed mb-4">
-                Every daily log, ticket, and blocker is tracked in Zoho. Fellows file tickets in Zoho Desk before **10:00 AM every working day without exception**. 
+                Every daily log, ticket, and blocker is tracked in Zoho. Fellows file tickets in Zoho Desk before <strong className="text-blue-400 font-bold">10:00 AM every working day without exception</strong>. 
               </p>
               <p className="text-xs text-slate-450 font-mono leading-relaxed font-bold">
-                This prevents chat congestion, establishes a clean corporate audit trail, and ensures the founder and Sutradhara have full operational visibility. **Missing a Zoho ticket is not a minor oversight. It is an operational failure.**
+                This prevents chat congestion, establishes a clean corporate audit trail, and ensures the founder and Sutradhara have full operational visibility. <strong className="text-blue-400 font-black">Missing a Zoho ticket is not a minor oversight. It is an operational failure.</strong>
               </p>
             </div>
           </div>

@@ -81,7 +81,7 @@ export const RoleExplorer: React.FC = () => {
             <div className="flex flex-col items-center mb-6">
               <div className="bg-blue-50 border border-blue-200 px-6 py-2.5 rounded text-blue-800 text-center shadow-sm">
                 <span className="text-[10px] font-mono text-blue-600 block uppercase tracking-wider mb-0.5 font-bold">Founding Direction</span>
-                <span className="font-serif font-bold text-sm">Srishta</span>
+                <span className="font-sans font-extrabold text-sm text-slate-900 tracking-tight">Srishta</span>
                 <span className="text-[10px] text-blue-700 font-sans block mt-0.5">Founder & Managing Director</span>
               </div>
               <div className="w-0.5 h-6 bg-blue-200" />
@@ -93,7 +93,7 @@ export const RoleExplorer: React.FC = () => {
                 <span className="inline-block px-1.5 py-0.5 bg-blue-100 text-blue-700 font-mono text-[8px] font-bold rounded uppercase absolute -top-2 left-1/2 -translate-x-1/2 border border-blue-200">
                   COHORT MANAGER
                 </span>
-                <span className="font-serif font-bold text-sm text-blue-900 block mt-1">Sutradhara</span>
+                <span className="font-sans font-extrabold text-sm text-slate-900 block mt-1 uppercase tracking-tight">Sutradhara</span>
                 <span className="text-[11px] text-blue-800 font-sans block mt-0.5">Main Program Manager (PM)</span>
                 <span className="text-[10px] text-blue-500 font-mono block mt-1 font-medium">Zoho Coordination Bridge</span>
               </div>
@@ -107,66 +107,66 @@ export const RoleExplorer: React.FC = () => {
             <div className="grid grid-cols-2 md:grid-cols-10 gap-4 mt-4 w-full">
               
               {/* Business Tracks (7) */}
-              <div className="col-span-2 md:col-span-7 grid grid-cols-1 md:grid-cols-7 gap-2 border border-blue-100 bg-white p-2 rounded">
+              <div className="col-span-2 md:col-span-7 grid grid-cols-1 md:grid-cols-7 gap-2 border border-blue-105 bg-white p-2 rounded">
                 <div className="col-span-1 md:col-span-7 text-center font-mono text-[9px] text-blue-600/80 tracking-wider mb-1 font-semibold">
                   7 SPECIALIZED BUSINESS TRACKS
                 </div>
                 {/* 1. Duta Pravesh */}
                 <div className="bg-blue-50/50 p-2.5 border border-blue-100 rounded text-center">
-                  <span className="text-[10px] text-blue-950 font-serif block font-semibold truncate">Duta Pravesh</span>
-                  <span className="text-[9px] text-blue-700 block truncate">Revenue / BDR</span>
+                  <span className="text-[10px] text-slate-900 font-sans block font-extrabold truncate uppercase tracking-tight">Duta Pravesh</span>
+                  <span className="text-[9px] text-blue-700 block truncate font-medium">Revenue / BDR</span>
                 </div>
                 {/* 2. Artha Siddhi */}
                 <div className="bg-blue-50/50 p-2.5 border border-blue-100 rounded text-center">
-                  <span className="text-[10px] text-blue-950 font-serif block font-semibold truncate">Artha Siddhi</span>
-                  <span className="text-[9px] text-blue-700 block truncate">Sales / AM</span>
+                  <span className="text-[10px] text-slate-900 font-sans block font-extrabold truncate uppercase tracking-tight">Artha Siddhi</span>
+                  <span className="text-[9px] text-blue-700 block truncate font-medium">Sales / AM</span>
                 </div>
                 {/* 3. Mitra */}
                 <div className="bg-blue-50/50 p-2.5 border border-blue-100 rounded text-center">
-                  <span className="text-[10px] text-blue-950 font-serif block font-semibold truncate">Mitra</span>
-                  <span className="text-[9px] text-blue-700 block truncate">Partnerships</span>
+                  <span className="text-[10px] text-slate-900 font-sans block font-extrabold truncate uppercase tracking-tight">Mitra</span>
+                  <span className="text-[9px] text-blue-700 block truncate font-medium">Partnerships</span>
                 </div>
                 {/* 4. Katha */}
                 <div className="bg-blue-50/50 p-2.5 border border-blue-100 rounded text-center">
-                  <span className="text-[10px] text-blue-950 font-serif block font-semibold truncate">Katha</span>
-                  <span className="text-[9px] text-blue-700 block truncate">Content creator</span>
+                  <span className="text-[10px] text-slate-900 font-sans block font-extrabold truncate uppercase tracking-tight">Katha</span>
+                  <span className="text-[9px] text-blue-700 block truncate font-medium">Content creator</span>
                 </div>
                 {/* 5. Sabha */}
                 <div className="bg-blue-50/50 p-2.5 border border-blue-100 rounded text-center">
-                  <span className="text-[10px] text-blue-950 font-serif block font-semibold truncate">Sabha</span>
-                  <span className="text-[9px] text-blue-700 block truncate">Community</span>
+                  <span className="text-[10px] text-slate-900 font-sans block font-extrabold truncate uppercase tracking-tight">Sabha</span>
+                  <span className="text-[9px] text-blue-700 block truncate font-medium">Community</span>
                 </div>
                 {/* 6. Koshaadhikari */}
                 <div className="bg-blue-50/55 p-2.5 border border-blue-200 rounded text-center animate-pulse">
-                  <span className="text-[10px] text-blue-950 font-serif block font-bold truncate">Koshaadhikari</span>
+                  <span className="text-[10px] text-slate-900 font-sans block font-extrabold truncate uppercase tracking-tight">Koshaadhikari</span>
                   <span className="text-[9px] text-blue-600 block truncate font-bold">Ops & Finance</span>
                 </div>
                 {/* 7. Sutradhara */}
                 <div className="bg-blue-50 p-2.5 border border-blue-300 rounded text-center shadow-xs">
-                  <span className="text-[10px] text-blue-700 font-serif block font-bold truncate">Sutradhara</span>
-                  <span className="text-[9px] text-blue-600 block truncate font-medium">Lead Track</span>
+                  <span className="text-[10px] text-blue-700 font-sans block font-extrabold truncate uppercase tracking-tight">Sutradhara</span>
+                  <span className="text-[9px] text-blue-600 block truncate font-bold">Lead Track</span>
                 </div>
               </div>
 
               {/* Tech Tracks (3) */}
-              <div className="col-span-2 md:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-2 border border-blue-100 bg-white p-2 rounded">
-                <div className="col-span-1 md:col-span-3 text-center font-mono text-[9px] text-blue-600/80 tracking-wider mb-1 font-semibold">
+              <div className="col-span-2 md:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-2 border border-blue-105 bg-white p-2 rounded">
+                <div className="col-span-1 md:col-span-3 text-center font-mono text-[9px] text-blue-650 tracking-wider mb-1 font-semibold">
                   3 TECHNOLOGY POSITIONS
                 </div>
                 {/* 1. Nirmata */}
                 <div className="bg-blue-50/50 p-2.5 border border-blue-100 rounded text-center">
-                  <span className="text-[10px] text-blue-950 font-serif block font-semibold truncate">Nirmata</span>
-                  <span className="text-[9px] text-blue-700 block truncate">Full Stack Dev</span>
+                  <span className="text-[10px] text-slate-900 font-sans block font-extrabold truncate uppercase tracking-tight">Nirmata</span>
+                  <span className="text-[9px] text-blue-700 block truncate font-medium">Full Stack Dev</span>
                 </div>
                 {/* 2. Megha */}
                 <div className="bg-blue-50/50 p-2.5 border border-blue-100 rounded text-center">
-                  <span className="text-[10px] text-blue-950 font-serif block font-semibold truncate">Megha</span>
-                  <span className="text-[9px] text-blue-700 block truncate">Cloud / AWS</span>
+                  <span className="text-[10px] text-slate-900 font-sans block font-extrabold truncate uppercase tracking-tight">Megha</span>
+                  <span className="text-[9px] text-blue-700 block truncate font-medium">Cloud / AWS</span>
                 </div>
                 {/* 3. Yantra */}
                 <div className="bg-blue-50/50 p-2.5 border border-blue-100 rounded text-center">
-                  <span className="text-[10px] text-blue-950 font-serif block font-semibold truncate">Yantra</span>
-                  <span className="text-[9px] text-blue-700 block truncate">Mobile Developer</span>
+                  <span className="text-[10px] text-slate-900 font-sans block font-extrabold truncate uppercase tracking-tight">Yantra</span>
+                  <span className="text-[9px] text-blue-700 block truncate font-medium">Mobile Developer</span>
                 </div>
               </div>
 
