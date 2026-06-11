@@ -145,7 +145,7 @@ export const LiveDeploymentMatrix: React.FC = () => {
                           Access Pass
                         </span>
                         <span className="text-[11px] font-black tracking-widest text-blue-400 font-mono">
-                          WISEIN KEY
+                          TAPBY
                         </span>
                       </div>
                       <span className="text-[8px] font-mono border border-blue-400/30 px-1.5 py-0.5 rounded bg-blue-950/80 text-blue-300 font-bold uppercase tracking-wider">

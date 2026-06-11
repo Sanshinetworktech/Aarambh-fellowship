@@ -2,56 +2,43 @@ import { RoleSpecification, Season, Benefit, Channel } from "./types";
 
 export const SEASONS: Season[] = [
   {
-    id: "varsha",
-    name: "Varsha (वर्षा)",
-    title: "Monsoon Cohort",
+    id: "sharad",
+    name: "Sharad (शरद)",
+    title: "Autumn-Winter Cohort",
     cohort: "Cohort of 10 Fellows",
-    duration: "Jul – Sep 2026",
-    startDate: "Starts July 1",
+    duration: "Sep – Dec 2026",
+    startDate: "Starts Sept 1",
     active: true,
     colorClass: "bg-blue-500/10 text-blue-400 border-blue-500/30",
     borderClass: "border-blue-500/50",
     textColorClass: "text-blue-400",
-    description: "The beginning of raw energy. Releasing foundational systems, deploying primary databases, and establishing the physical community baseline in Hyderabad."
-  },
-  {
-    id: "sharad",
-    name: "Sharad (शरद)",
-    title: "Autumn Cohort",
-    cohort: "Will Release Soon",
-    duration: "Oct – Dec 2026",
-    startDate: "Opening Soon",
-    active: false,
-    colorClass: "bg-slate-400/5 text-slate-400 border-slate-500/10",
-    borderClass: "border-slate-850",
-    textColorClass: "text-slate-400",
-    description: "Clarity, sharpness, and accelerated growth. Refining our user onboarding funnels and expanding structural partner frameworks in the city."
+    description: "Clarity, sharpness, and accelerated growth. Refining our user onboarding funnels, consolidating primary databases, and expanding structural partner frameworks across Hyderabad."
   },
   {
     id: "vasant",
     name: "Vasant (वसन्त)",
     title: "Spring Cohort",
     cohort: "Will Release Soon",
-    duration: "Jan – Mar 2027",
+    duration: "Jan – Apr 2027",
     startDate: "Opening Soon",
     active: false,
     colorClass: "bg-slate-400/5 text-slate-400 border-slate-500/10",
     borderClass: "border-slate-850",
     textColorClass: "text-slate-400",
-    description: "Bloom, expansion, and pioneering new ideas. Launching creative social sub-networks and scaling offline hyper-local forums."
+    description: "Bloom, expansion, and pioneering new ideas. Launching creative social sub-networks and scaling offline hyper-local forums in the city."
   },
   {
-    id: "grishma",
-    name: "Grishma (ग्रीष्म)",
-    title: "Summer Cohort",
+    id: "varsha",
+    name: "Varsha (वर्षा)",
+    title: "Monsoon Cohort",
     cohort: "Will Release Soon",
-    duration: "Apr – Jun 2027",
+    duration: "May – Aug 2027",
     startDate: "Opening Soon",
     active: false,
     colorClass: "bg-slate-400/5 text-slate-400 border-slate-500/10",
     borderClass: "border-slate-850",
     textColorClass: "text-slate-400",
-    description: "Intensity, heat, and peak scaling performance. Optimizing latency, consolidating databases, and executing hyper-growth marketing activations."
+    description: "The beginning of raw energy. Deploying foundational tools, primary content networks, and executing hyper-growth marketing activations across Hyderabad."
   }
 ];
 
@@ -74,11 +61,11 @@ export const CHANNELS: Channel[] = [
   },
   {
     id: "founderkey",
-    name: "Wisein Key",
+    name: "Tapby",
     tagline: "Workspace Initiative",
-    subtitle: "Offline membership card · Hyderabad",
+    subtitle: "Offline access system · Hyderabad",
     description: "A private offline access system for verified founders and operators. Members receive access to live recordings, startup gatherings, curated meetups, and regional events across Hyderabad.",
-    linkText: "Hyderabad Elite Pass"
+    linkText: "Hyderabad Pass"
   }
 ];
 
@@ -106,7 +93,7 @@ export const BENEFITS: Benefit[] = [
   },
   {
     id: "founderkeypass",
-    title: "WiseIn Key Access",
+    title: "Tapby Pass Access",
     tag: "Offline Network",
     description: "Entry to live recordings, startup gatherings, and private events.",
     detail: "Full offline admission pass in Hyderabad."

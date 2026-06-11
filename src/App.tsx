@@ -95,16 +95,6 @@ export default function App() {
                 Fellowship
               </button>
               <button
-                onClick={() => handleNavigate("wiki")}
-                className={`px-4 py-1.5 text-[10.5px] font-black uppercase tracking-wider rounded-full transition-all cursor-pointer ${
-                  activePage === "wiki" 
-                  ? "bg-blue-600 text-white shadow-xs" 
-                  : "text-slate-650 hover:text-blue-600"
-                }`}
-              >
-                Wi-Ki Key
-              </button>
-              <button
                 onClick={() => handleNavigate("apply")}
                 className={`px-4 py-1.5 text-[10.5px] font-black uppercase tracking-wider rounded-full transition-all cursor-pointer ${
                   activePage === "apply" 
@@ -176,14 +166,6 @@ export default function App() {
               }`}
             >
               Apply Now
-            </button>
-            <button
-              onClick={() => handleNavigate("wiki")}
-              className={`block w-full text-left py-2 px-3 rounded-lg text-xs font-black uppercase ${
-                activePage === "wiki" ? "bg-blue-50 text-blue-750 font-black" : "text-slate-700"
-              }`}
-            >
-              Wi-Ki Key
             </button>
             
             <div className="pt-4 border-t border-slate-200">
@@ -294,7 +276,7 @@ export default function App() {
               © {new Date().getFullYear()} Sanshi Network Tech Private Limited. Hyderabad, India. All operational rights reserved.
             </div>
             <div className="flex items-center gap-4 text-slate-450">
-              <span className="text-blue-750">Varsha Season 1</span>
+              <span className="text-blue-750">Sharad Season 1</span>
               <span>•</span>
               <span className="text-slate-400">Vetting Desk Standard</span>
             </div>

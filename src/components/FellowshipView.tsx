@@ -46,8 +46,8 @@ export default function FellowshipView() {
         };
       case "dutapravesh":
         return {
-          detail: "The revenue engine. Every rupee of new WiseIn MRR begins with your outreach. You go first, initiating 20+ personalised outreaches per day across LinkedIn, WhatsApp, and email. You source and confirm one Brutal Stories guest every week. You grow the WiseIn Key waitlist. You hand every warm lead to Artha Siddhi with full context. Zero cold handoffs.",
-          owns: "Top-of-funnel pipeline · Brutal Stories guest sourcing · Founder Key waitlist · Lead qualification · Zoho CRM accuracy"
+          detail: "The revenue engine. Every rupee of new WiseIn MRR begins with your outreach. You go first, initiating 20+ personalised outreaches per day across LinkedIn, WhatsApp, and email. You source and confirm one Brutal Stories guest every week. You grow the Tapby (TapbyWiseaIN) waitlist. You hand every warm lead to Artha Siddhi with full context. Zero cold handoffs.",
+          owns: "Top-of-funnel pipeline · Brutal Stories guest sourcing · Tapby waitlist · Lead qualification · Zoho CRM accuracy"
         };
       case "arthasiddhi":
         return {
@@ -56,7 +56,7 @@ export default function FellowshipView() {
         };
       case "mitra":
         return {
-          detail: "You build institutional leverage. One MOU with a college or company brings dozens of verified users at once. You sign institutional partnerships, close Startup Expo sponsors, and build the café network that keeps Brutal Stories running every Wednesday. Minimum 3 signed MOUs across 13 weeks.",
+          detail: "You build institutional leverage. One MOU with a college or company brings dozens of verified users at once. You sign institutional partnerships, close Startup Expo sponsors, and build the café network that keeps Brutal Stories running every Wednesday. Minimum 3 signed MOUs across 17 weeks.",
           owns: "Institutional partnerships · MOU drafting and closing · Expo sponsorships · Café venue relationships · Partnership pipeline in Zoho CRM"
         };
       case "katha":
@@ -66,8 +66,8 @@ export default function FellowshipView() {
         };
       case "sabha":
         return {
-          detail: "The human layer of WiseIn. Every new member is personally welcomed within 24 hours. You run three active sector communities with daily engagement. You manage all Brutal Stories RSVPs, send every reminder, and keep the WiseIn Key member group active every single day. Silence is a failure state.",
-          owns: "Member onboarding · Community engagement · RSVP management · Founder Key group · Member complaint resolution · Community health reporting"
+          detail: "The human layer of WiseIn. Every new member is personally welcomed within 24 hours. You run three active sector communities with daily engagement. You manage all Brutal Stories RSVPs, send every reminder, and keep the Tapby member group active every single day. Silence is a failure state.",
+          owns: "Member onboarding · Community engagement · RSVP management · Tapby user group · Member complaint resolution · Community health reporting"
         };
       case "koshaadhikari":
         return {
@@ -76,7 +76,7 @@ export default function FellowshipView() {
         };
       case "nirmata":
         return {
-          detail: "You build and maintain the systems that power WiseIn. React and Next.js frontend. Node.js and Express APIs. Supabase and Postgres databases. Razorpay payment flows. Brutal Stories portal. WiseIn Key portal. What you ship goes directly to real users. Downtime is not acceptable during active member sessions.",
+          detail: "You build and maintain the systems that power WiseIn. React and Next.js frontend. Node.js and Express APIs. Supabase and Postgres databases. Razorpay payment flows. Brutal Stories portal. Tapby portal. What you ship goes directly to real users. Downtime is not acceptable during active member sessions.",
           owns: "WiseIn frontend and backend · API development · Database integrations · Payment systems · Portal builds · Code review and deployment"
         };
       case "megha":
@@ -114,7 +114,7 @@ export default function FellowshipView() {
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-700 text-[10.5px] font-mono font-bold uppercase tracking-wider mb-6"
           >
             <Clock className="w-3.5 h-3.5 animate-pulse" />
-            <span>13 Weeks · Hyderabad · In-Person Residency</span>
+            <span>17 Weeks · Hyderabad · In-Person Residency</span>
           </motion.div>
 
           <motion.h1
@@ -130,7 +130,7 @@ export default function FellowshipView() {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-base sm:text-xl text-slate-950 font-bold max-w-2xl mx-auto leading-relaxed"
+            className="text-base sm:text-xl text-slate-955 font-bold max-w-2xl mx-auto leading-relaxed"
           >
             Everything you need to know about how Aarambh works, what you will own, and what you will walk away with.
           </motion.p>
@@ -151,9 +151,9 @@ export default function FellowshipView() {
               <h2 className="text-2xl sm:text-3xl font-extrabold font-sans text-slate-955 mb-6">
                 What This Is
               </h2>
-              <div className="text-sm sm:text-base text-slate-950 font-medium space-y-4 leading-relaxed">
+              <div className="text-sm sm:text-base text-slate-955 font-medium space-y-4 leading-relaxed">
                 <p>
-                  Aarambh is a <strong className="text-slate-900 font-extrabold">13-week in-person operator residency</strong> in Hyderabad, India. Ten selected fellows work directly on three live production systems operated by Sanshi Network Tech Private Limited. There are no simulations, no mock assignments, and no hypothetical case studies.
+                  Aarambh is a <strong className="text-slate-900 font-extrabold">17-week in-person operator residency</strong> in Hyderabad, India. Ten selected fellows work directly on three live production systems operated by Sanshi Network Tech Private Limited. There are no simulations, no mock assignments, and no hypothetical case studies.
                 </p>
                 <p>
                   Every deliverable affects real users. Every decision moves a real metric.
@@ -176,7 +176,7 @@ export default function FellowshipView() {
                 <div className="grid grid-cols-2 gap-4 pb-4 border-b border-slate-200/60">
                   <div>
                     <span className="text-[10px] text-slate-400 block font-mono">DURATION</span>
-                    <span className="text-xs sm:text-sm text-slate-900 font-extrabold block">13 Weeks · 91 Consecutive Days</span>
+                    <span className="text-xs sm:text-sm text-slate-900 font-extrabold block">17 Weeks · 120 Consecutive Days</span>
                   </div>
                   <div>
                     <span className="text-[10px] text-slate-400 block font-mono">COHORT SIZE</span>
@@ -217,10 +217,10 @@ export default function FellowshipView() {
               Unbroken Routine Coordination
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold font-sans text-slate-900 tracking-tight mb-4">
-              The 13-Week Rhythm
+              The 17-Week Rhythm
             </h2>
-            <p className="text-sm sm:text-base text-slate-950 font-bold leading-relaxed">
-              We run a highly coordinated weekly schedule. Same structure, every week, for 13 consecutive weeks. Consistency is not a preference - it is the operational discipline that makes execution at this pace possible.
+            <p className="text-sm sm:text-base text-slate-955 font-bold leading-relaxed">
+              We run a highly coordinated weekly schedule. Same structure, every week, for 17 consecutive weeks. Consistency is not a preference - it is the operational discipline that makes execution at this pace possible.
             </p>
           </div>
 
@@ -532,7 +532,7 @@ export default function FellowshipView() {
             <div className="p-6 rounded-3xl bg-white border border-[#e2eafc] flex flex-col justify-between">
               <div>
                 <span className="font-mono text-[10px] text-blue-650 font-black tracking-wider uppercase block mb-3">Perk 01</span>
-                <h4 className="font-sans text-base font-bold text-slate-900 mb-2">Aarambh Varsha Welcome Box</h4>
+                <h4 className="font-sans text-base font-bold text-slate-900 mb-2">Aarambh Sharad Welcome Box</h4>
                 <p className="text-xs sm:text-sm text-slate-950 font-medium leading-relaxed">
                   Custom Kraft box delivered before Day 1. Contains a physical Fellow ID card, organic cotton tote, workspace notebook, endemic seed kit, and a handwritten MD letter.
                 </p>
@@ -587,7 +587,7 @@ export default function FellowshipView() {
             <div className="p-6 rounded-3xl bg-white border border-[#e2eafc] flex flex-col justify-between">
               <div>
                 <span className="font-mono text-[10px] text-blue-650 font-black tracking-wider uppercase block mb-3">Perk 06</span>
-                <h4 className="font-sans text-base font-bold text-slate-900 mb-2">WiseIn Key Pass</h4>
+                <h4 className="font-sans text-base font-bold text-slate-900 mb-2">Tapby Pass</h4>
                 <p className="text-xs sm:text-sm text-slate-950 font-medium leading-relaxed">
                   Full complimentary access to every Brutal Stories live recording, monthly Startup Expos, and all private Sanshi-organised gatherings in Hyderabad during and after the residency.
                 </p>

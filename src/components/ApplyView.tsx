@@ -47,8 +47,8 @@ export default function ApplyView() {
       a: "We do not send individual rejection notifications. If you have not heard back within 10 working days of a complete, verified submission, you may reach out at connect@aarambhfellowship.com."
     },
     {
-      q: "Is Varsha the only open season?",
-      a: "Varsha - Season 1 - is the currently active cohort starting July 1, 2026. Sharad, Vasant, and Grishma applications open on a rolling basis. Register your interest for future seasons via email."
+      q: "Is Sharad the only open season?",
+      a: "Sharad - Season 1 - is the currently active cohort starting September 1, 2026. Vasant and Varsha applications open on a rolling basis. Register your interest for future seasons via email."
     }
   ];
 
@@ -67,7 +67,7 @@ export default function ApplyView() {
             className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50/50 border border-blue-100 text-blue-700 text-[10px] font-mono font-bold uppercase tracking-widest mb-6"
           >
             <Sparkles className="w-3.5 h-3.5 shrink-0" />
-            <span>Applications Live · Varsha Season 1</span>
+            <span>Applications Live · Sharad Season 1</span>
           </motion.div>
 
           <motion.h1
@@ -111,7 +111,7 @@ export default function ApplyView() {
               <div className="space-y-1">
                 <span className="font-mono text-[10px] font-black text-slate-400 block">01 / LOCATION EXCLUSIVITY</span>
                 <p className="text-xs sm:text-sm text-slate-950 leading-relaxed font-bold">
-                  You must be physically present in <strong className="text-slate-950 font-extrabold">Hyderabad</strong> for the full 13-week duration starting <strong className="text-slate-950 font-extrabold">July 1, 2026</strong>. Remote participation is stringently prohibited.
+                  You must be physically present in <strong className="text-slate-950 font-extrabold">Hyderabad</strong> for the full 17-week duration starting <strong className="text-slate-950 font-extrabold">September 1, 2026</strong>. Remote participation is stringently prohibited.
                 </p>
               </div>
 
@@ -346,7 +346,7 @@ export default function ApplyView() {
               <div className="pb-4 border-b border-slate-100">
                 <strong className="text-slate-900 font-extrabold font-sans block mb-1">3. Future Rollings</strong>
                 <p className="text-slate-500 font-normal">
-                  If not selected for Varsha, credentials persist safely on the application portal to match for Sharad, Vasant or Grishma cycles.
+                  If not selected for Sharad, credentials persist safely on the application portal to match for Vasant or Varsha cycles.
                 </p>
               </div>
 

@@ -62,7 +62,7 @@ export const ProgramDynamics: React.FC = () => {
                 The fellowship runs from Hyderabad as a focused in-person residency.
               </p>
               <p>
-                Over 13 weeks, fellows operate inside a small, high-trust cohort designed for execution, consistency, and ownership.
+                Over 17 weeks (4 months), fellows operate inside a small, high-trust cohort designed for execution, consistency, and ownership.
               </p>
               <p className="font-extrabold text-black border-b border-blue-100 pb-2">
                 The structure is intentionally small:
@@ -181,7 +181,7 @@ export const ProgramDynamics: React.FC = () => {
 
         </div>
 
-        {/* Year-Round Continuity: The Four Seasons */}
+        {/* Year-Round Continuity: The Three Seasons */}
         <div className="flex flex-col">
           <div className="mb-10 text-center max-w-2xl mx-auto">
             <span className="font-mono text-xs text-blue-600 uppercase tracking-widest mb-3 flex items-center justify-center gap-2 font-bold">
@@ -189,10 +189,10 @@ export const ProgramDynamics: React.FC = () => {
               Year-Round Continuity
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold font-sans text-blue-900 mb-3">
-              The Four Seasons of Aarambh
+              The Three Seasons of Aarambh
             </h2>
             <p className="text-sm text-slate-955 font-bold">
-              Our fellowship runs year-round in compliance with the natural cycle of the Indian seasons. Each season handpicks a cohort of ten exceptional fellows for a 13-week focused sprint.
+              Our fellowship runs year-round in compliance with the natural cycle of the Indian seasons. Each season handpicks a cohort of ten exceptional fellows for an immersive 17-week (4-month) focused sprint.
             </p>
           </div>
 
@@ -214,7 +214,9 @@ export const ProgramDynamics: React.FC = () => {
                 >
                   <div className="flex flex-col">
                     <div className="flex items-center gap-2">
-                      <span className="text-xs font-mono text-blue-600 uppercase font-bold">Season {season.id === "varsha" ? "1" : season.id === "sharad" ? "2" : season.id === "vasant" ? "3" : "4"}</span>
+                      <span className="text-xs font-mono text-blue-600 uppercase font-bold">
+                        Season {season.id === "sharad" ? "1" : season.id === "vasant" ? "2" : "3"}
+                      </span>
                       {season.active && (
                         <span className="inline-block px-1.5 py-0.5 font-mono text-[9px] font-bold text-blue-700 bg-blue-100 border border-blue-200 rounded uppercase">
                           ACTIVE
@@ -252,7 +254,7 @@ export const ProgramDynamics: React.FC = () => {
                       <span className="text-xs font-mono text-blue-600 uppercase tracking-widest block mb-0.5 font-bold">
                         Selected Cycle
                       </span>
-                      <h3 className="text-xl sm:text-2xl font-sans text-slate-950 font-extrabold h-7">
+                      <h3 className="text-xl sm:text-2xl font-sans text-slate-955 font-extrabold h-7">
                         {activeSeasonData.name} - {activeSeasonData.title}
                       </h3>
                     </div>
@@ -268,7 +270,7 @@ export const ProgramDynamics: React.FC = () => {
                   <div className="grid grid-cols-2 gap-4 border-t border-blue-100 pt-5">
                     <div>
                       <span className="text-[10px] font-mono text-blue-500 font-semibold uppercase block mb-1">Duration</span>
-                      <span className="font-sans text-sm text-blue-900 font-medium">13-Week Focused Sprint</span>
+                      <span className="font-sans text-sm text-blue-900 font-medium">17-Week (4-Month) Sprint</span>
                     </div>
                     <div>
                       <span className="text-[10px] font-mono text-blue-500 font-semibold uppercase block mb-1">Candidate Limit</span>
@@ -284,7 +286,7 @@ export const ProgramDynamics: React.FC = () => {
                 <div className="mt-8 pt-5 border-t border-blue-100/80 flex items-center justify-between bg-blue-50 p-4 border border-blue-250 rounded-md">
                   <span className="text-xs sm:text-sm text-blue-900">Cohort screening in progress.</span>
                   <a href="#enrollment-pathway" className="font-mono text-xs text-blue-600 hover:text-blue-700 font-semibold inline-flex items-center gap-1">
-                    Apply for Varsha
+                    Apply for {activeSeasonData.name.split(" ")[0]}
                     <span>→</span>
                   </a>
                 </div>

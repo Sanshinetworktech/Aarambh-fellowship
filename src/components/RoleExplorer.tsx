@@ -491,7 +491,7 @@ export const RoleExplorer: React.FC = () => {
                   {/* Actions Sticky Footer */}
                   <div className="border-t border-slate-100 bg-slate-50/80 p-5 flex flex-col sm:flex-row items-center justify-between gap-4">
                     <span className="text-[10px] font-mono font-bold text-slate-400 uppercase hidden sm:inline">
-                      WiseIn Varsha Cohort 2026
+                      WiseIn Sharad Cohort 2026
                     </span>
                     
                     <div className="flex items-center gap-3.5 w-full sm:w-auto">

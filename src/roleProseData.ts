@@ -76,7 +76,7 @@ export const ROLE_PROSE_DATA: Record<string, RoleProse> = {
     reportingTo: "Sutradhara, Program Lead",
     collaboratesWith: "Artha Siddhi · Sabha · Koshaadhikari",
     overview: "Duta Pravesh is the originating force of Sanshi Network Tech's revenue growth. Every rupee of new Monthly Recurring Revenue that enters WiseIn begins with this function. The individual in this role is not a support function for the sales team — they are the engine that makes the sales team possible. Without a healthy, growing, well-qualified pipeline, everything downstream stalls. This is a high-volume, high-discipline outreach function that demands consistent daily execution across multiple channels simultaneously. The individual who performs this role must possess the professional stamina to sustain personalised outreach at significant volume without allowing quality to degrade, the judgement to qualify leads before passing them forward, and the organisational discipline to maintain a pipeline that the entire commercial function can rely on.",
-    mission: "To build and sustain the qualified top-of-funnel pipeline that drives all new WiseIn paid subscriber acquisition, Brutal Stories audience development, and WiseIn Key membership growth.",
+    mission: "To build and sustain the qualified top-of-funnel pipeline that drives all new WiseIn paid subscriber acquisition, Brutal Stories audience development, and Tapby membership growth.",
     responsibilities: [
       {
         title: "Revenue Pipeline Development",
@@ -91,8 +91,8 @@ export const ROLE_PROSE_DATA: Record<string, RoleProse> = {
         text: "This role carries full ownership of sourcing, approaching, and confirming one high-profile founder or operator as the guest for every Brutal Stories recording session. The guest pipeline must be maintained with sufficient depth that no recording session is ever at risk of an empty seat. Every confirmed guest receives a structured briefing on the format, the audience, the venue, and the production team before their arrival."
       },
       {
-        title: "WiseIn Key Waitlist Development",
-        text: "Duta Pravesh is responsible for the continuous identification of high-fit founder and operator profiles for WiseIn Key membership, and for running a structured multi-touch warm-up sequence that introduces candidates to the product's value before the membership offer is extended. The waitlist must grow consistently and the quality of candidates must be high enough to sustain the exclusivity of the Key membership programme."
+        title: "Tapby Waitlist Development",
+        text: "Duta Pravesh is responsible for the continuous identification of high-fit founder and operator profiles for Tapby membership, and for running a structured multi-touch warm-up sequence that introduces candidates to the product's value before the membership offer is extended. The waitlist must grow consistently and the quality of candidates must be high enough to sustain the exclusivity of the Tapby membership programme."
       }
     ],
     demands: "The individual in this function must be energised — not merely tolerant — of high-volume daily outreach. The work requires genuine curiosity about the people being approached, the discipline to research before contacting, the persistence to follow up without becoming intrusive, and the professional judgement to know when a lead is genuinely warm versus merely polite. This is not a role for someone who prefers inbound interest or warm introductions. The Duta Pravesh function creates pipeline from nothing, every day, without exception.",
@@ -300,8 +300,8 @@ export const ROLE_PROSE_DATA: Record<string, RoleProse> = {
         text: "Sabha manages the complete RSVP and audience coordination infrastructure for every Brutal Stories recording session. This encompasses the collection and confirmation of RSVPs, the delivery of structured event reminders, day-of attendance coordination, and the post-event communication that sustains the relationship between the audience and the WiseIn platform."
       },
       {
-        title: "WiseIn Key Member Group",
-        text: "The WiseIn Key member community is a premium, private group that Sabha manages with daily attention. The quality of engagement within this group directly reflects the perceived value of the Key membership. Sabha ensures that the group remains active, substantive, and worthy of the exclusivity that Key membership represents."
+        title: "Tapby Member Group",
+        text: "The Tapby member community is a premium, private group that Sabha manages with daily attention. The quality of engagement within this group directly reflects the perceived value of the Tapby membership. Sabha ensures that the group remains active, substantive, and worthy of the exclusivity that Tapby membership represents."
       }
     ],
     demands: "Sabha demands an individual who is genuinely energised by human connection at scale — not someone who tolerates it as part of a job description. The right person for this function finds meaning in the act of making other people feel welcomed and valued, and possesses the operational discipline to sustain that at volume without allowing it to become mechanical.",
@@ -340,7 +340,7 @@ export const ROLE_PROSE_DATA: Record<string, RoleProse> = {
     responsibilities: [
       {
         title: "Financial Management",
-        text: "Koshaadhikari is responsible for the same-day logging of every financial transaction across all three fellowship products — WiseIn, Brutal Stories, and WiseIn Key. Income, expenditure, reimbursements, vendor payments, and event costs are recorded immediately and accurately. No transaction accumulates without documentation. The ledger is live, precise, and reconciled at the close of every working week. A clean monthly financial summary is produced for the founder's review at the commencement of each new month — without prompting and without delay."
+        text: "Koshaadhikari is responsible for the same-day logging of every financial transaction across all three fellowship products — WiseIn, Brutal Stories, and Tapby. Income, expenditure, reimbursements, vendor payments, and event costs are recorded immediately and accurately. No transaction accumulates without documentation. The ledger is live, precise, and reconciled at the close of every working week. A clean monthly financial summary is produced for the founder's review at the commencement of each new month — without prompting and without delay."
       },
       {
         title: "Fellow Reimbursements",
@@ -407,7 +407,7 @@ export const ROLE_PROSE_DATA: Record<string, RoleProse> = {
       },
       {
         title: "Portal Development",
-        text: "In addition to the core WiseIn platform, Nirmata is responsible for the development and maintenance of the Brutal Stories web portal and the WiseIn Key member portal. These are production systems with real users and real operational dependencies — they are treated accordingly."
+        text: "In addition to the core WiseIn platform, Nirmata is responsible for the development and maintenance of the Brutal Stories web portal and the Tapby portal. These are production systems with real users and real operational dependencies — they are treated accordingly."
       }
     ],
     demands: "Nirmata must be a builder who has shipped real products to real users. Not prototypes. Not academic projects. Live, accessible systems that real people use. The individual in this function must be comfortable owning an entire technical product surface, coordinating deployments with an infrastructure engineer, and making consequential technical decisions with appropriate judgement and speed.",

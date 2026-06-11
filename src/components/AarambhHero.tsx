@@ -80,7 +80,7 @@ export const AarambhHero: React.FC<HeroProps> = ({ onExploreRoles }) => {
           </h1>
           
           <p className="font-mono text-xs sm:text-sm font-semibold text-blue-600 uppercase tracking-widest mt-6 max-w-xl">
-            A 13-week in-person operator residency in Hyderabad, India · Cohort E1
+            A 17-week (4-month) in-person operator residency in Hyderabad, India · Cohort E1
           </p>
         </motion.div>
  
@@ -91,8 +91,8 @@ export const AarambhHero: React.FC<HeroProps> = ({ onExploreRoles }) => {
           transition={{ duration: 0.7, delay: 0.25 }}
           className="max-w-3xl mb-12 text-center"
         >
-          <p className="text-slate-950 font-sans text-base sm:text-xl font-semibold leading-relaxed mb-6">
-            Ten handpicked fellows receive direct system ownership to build, deploy, and scale live platforms across WiseIn, Brutal Stories, and Wisein Key.
+          <p className="text-slate-955 font-sans text-base sm:text-xl font-semibold leading-relaxed mb-6">
+            Ten handpicked fellows receive direct system ownership to build, deploy, and scale live platforms across WiseIn, Brutal Stories, and Tapby (TapbyWiseaIN).
           </p>
           <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-3 pt-4 border-t border-blue-50/70 max-w-2xl mx-auto">
             <span className="inline-flex items-center gap-1.5 font-mono text-xs text-blue-700 font-bold bg-blue-50/50 px-2.5 py-1 rounded border border-blue-100">

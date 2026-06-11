@@ -36,7 +36,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
           <div className="flex items-start sm:items-center gap-2 uppercase font-bold text-center sm:text-left justify-center sm:justify-start">
             <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse mt-1.5 sm:mt-0 shrink-0" />
             <span className="leading-relaxed sm:leading-none">
-              WiseIn Series • Aarambh Fellowship • Varsha Season 1
+              WiseIn Series • Aarambh Fellowship • Sharad Season 1
             </span>
           </div>
           <p className="uppercase font-semibold text-white/85 text-center sm:text-right leading-relaxed sm:leading-none">
@@ -62,7 +62,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-700 text-[10.5px] font-mono font-bold uppercase tracking-wider mb-8 shadow-xs"
           >
             <Sparkles className="w-3 h-3 text-blue-600 animate-spin" />
-            <span>Sanshi Network Tech Pvt. Ltd. Presents • Cohort E1 • Varsha Season 1</span>
+            <span>Sanshi Network Tech Pvt. Ltd. Presents • Cohort E1 • Sharad Season 1</span>
           </motion.div>
 
           {/* Core Headline */}
@@ -76,7 +76,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
               आरम्भ <span className="bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 bg-clip-text text-transparent">Fellowship</span>
             </h1>
             <p className="font-mono text-xs sm:text-sm font-extrabold text-blue-600 uppercase tracking-widest mt-6 max-w-xl mx-auto">
-              A 13-week in-person operator residency in Hyderabad, India
+              A 17-week in-person operator residency in Hyderabad, India
             </p>
           </motion.div>
 
@@ -87,12 +87,12 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="max-w-3xl mb-12"
           >
-            <p className="text-slate-950 font-sans text-base sm:text-xl font-semibold leading-relaxed mb-8">
-              Ten handpicked fellows receive direct system ownership to build, deploy, and scale live platforms across WiseIn, Brutal Stories, and WiseIn Key. No simulations. No classroom exercises. Everything ships to production.
+            <p className="text-slate-955 font-sans text-base sm:text-xl font-semibold leading-relaxed mb-8">
+              Ten handpicked fellows receive direct system ownership to build, deploy, and scale live platforms across WiseIn, Brutal Stories, and Tapby (TapbyWiseaIN). No simulations. No classroom exercises. Everything ships to production.
             </p>
 
             <p className="text-slate-955 font-sans text-xs sm:text-sm font-bold bg-blue-50/50 border border-blue-100 px-4 py-2.5 rounded-lg max-w-lg mx-auto leading-relaxed">
-              Applications for Varsha Season 1 are live and reviewed daily on WiseIn.
+              Applications for Sharad Season 1 are live and reviewed daily on WiseIn.
             </p>
           </motion.div>
 
@@ -250,9 +250,9 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
             </div>
 
             <div className="flex flex-col p-6 rounded-3xl bg-slate-50/50 border border-[#e2eafc] hover:border-blue-200 transition-all duration-300">
-              <span className="text-4xl sm:text-5xl font-black font-sans text-blue-600 tracking-tight mb-2">13</span>
+              <span className="text-4xl sm:text-5xl font-black font-sans text-blue-600 tracking-tight mb-2">17</span>
               <span className="font-sans text-sm text-slate-950 font-bold">Focused Weeks</span>
-              <span className="font-sans text-xs text-slate-500 mt-1">91 Days continuous deployment</span>
+              <span className="font-sans text-xs text-slate-500 mt-1">120 Days continuous deployment</span>
             </div>
 
             <div className="flex flex-col p-6 rounded-3xl bg-slate-50/50 border border-[#e2eafc] hover:border-blue-200 transition-all duration-300">
@@ -262,9 +262,9 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
             </div>
 
             <div className="flex flex-col p-6 rounded-3xl bg-slate-50/50 border border-[#e2eafc] hover:border-blue-200 transition-all duration-300">
-              <span className="text-4xl sm:text-5xl font-black font-sans text-blue-600 tracking-tight mb-2">4</span>
+              <span className="text-4xl sm:text-5xl font-black font-sans text-blue-600 tracking-tight mb-2">3</span>
               <span className="font-sans text-sm text-slate-950 font-bold">Annual Seasons</span>
-              <span className="font-sans text-xs text-slate-500 mt-1">Aligned with the Indian cycle</span>
+              <span className="font-sans text-xs text-slate-500 mt-1">4-month immersive cycles</span>
             </div>
 
           </div>
@@ -451,18 +451,18 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
                   <Key className="w-5 h-5" />
                 </div>
                 <h3 className="text-xl font-bold font-sans text-slate-950 mb-1 flex items-center justify-between">
-                  <span>WiseIn Key</span>
-                  <span className="text-[10px] font-mono text-zinc-600 bg-zinc-50 border border-zinc-200 px-2 py-0.5 rounded uppercase font-bold">
-                    Physical Key
+                  <span>Tapby</span>
+                  <span className="text-[10px] font-mono text-zinc-650 bg-zinc-50 border border-zinc-200 px-2 py-0.5 rounded uppercase font-bold">
+                    TapbyWiseaIN
                   </span>
                 </h3>
-                <span className="font-sans text-xs text-slate-400 block mb-4">Offline Membership • Hyderabad</span>
+                <span className="font-sans text-xs text-slate-400 block mb-4">Offline Access System • Hyderabad</span>
                 <p className="font-sans text-sm text-slate-950 font-medium leading-relaxed mb-6">
                   A premium physical and digital access pass for verified founders and high-performing operators. Grants complimentary entry to all Brutal Stories live recordings, monthly Startup Expos, and exclusive networking meetups across Hyderabad.
                 </p>
               </div>
               <span className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-500 uppercase tracking-wider font-mono">
-                Elite Physical Token
+                Elite physical Token
               </span>
             </div>
 
@@ -483,7 +483,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
         </div>
       </div>
 
-      {/* ── THE FOUR SEASONS OF AARAMBH ───────────────────────────────── */}
+      {/* ── THE THREE SEASONS OF AARAMBH ───────────────────────────────── */}
       <div className="bg-slate-50/50 py-24 border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
@@ -492,62 +492,44 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
               Year-Round Activity Calendar
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold font-sans text-slate-900 tracking-tight mb-4">
-              The Four Seasons of Aarambh
+              The Three Seasons of Aarambh
             </h2>
             <p className="text-sm sm:text-base text-slate-955 font-bold leading-relaxed">
-              Our fellowship runs year-round in compliance with the natural cycle of the Indian seasons. Each season handpicks a cohort of ten exceptional fellows for a 13-week focused sprint.
+              Our fellowship runs year-round in compliance with the natural cycle. Each season handpicks a cohort of ten exceptional fellows for an immersive 17-week (4-month) focused sprint.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             
-            {/* Season 1: Varsha */}
+            {/* Season 1: Sharad */}
             <div className="p-6 rounded-3xl bg-white border-2 border-blue-500/50 shadow-xs flex flex-col justify-between">
               <div>
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-[10px] font-mono text-blue-650 uppercase font-black">Season 01 • Active</span>
-                  <span className="text-xs bg-blue-50 text-blue-700 border border-blue-100 px-1.5 py-0.5 rounded font-bold font-mono">🌧️ VARSHA</span>
+                  <span className="text-xs bg-blue-50 text-blue-700 border border-blue-100 px-1.5 py-0.5 rounded font-bold font-mono">🍂 SHARAD</span>
                 </div>
-                <h3 className="text-xl font-black text-slate-950 tracking-tight mb-2">Varsha (वर्षा)</h3>
-                <span className="font-mono text-[11px] text-blue-650 block mb-4 font-extrabold">Jul – Sep 2026 • Starts July 1</span>
+                <h3 className="text-xl font-black text-slate-950 tracking-tight mb-2">Sharad (शरद)</h3>
+                <span className="font-mono text-[11px] text-blue-650 block mb-4 font-extrabold">Sep – Dec 2026 • Starts Sept 1</span>
                 <p className="font-sans text-xs text-slate-950 font-medium leading-relaxed">
-                  The beginning of raw energy. Releasing foundational systems, deploying primary databases, and establishing the physical community baseline in Hyderabad.
+                  Clarity, sharpness, and accelerated growth. Refining user onboarding funnels, implementing primary databases, and establishing the physical community baseline in Hyderabad.
                 </p>
               </div>
               <span className="text-[10px] font-mono text-blue-600 block pt-4 border-t border-slate-100 font-bold mt-6">
-                Monsoon Cohort
+                Autumn-Winter Cohort
               </span>
             </div>
 
-            {/* Season 2: Sharad */}
+            {/* Season 2: Vasant */}
             <div className="p-6 rounded-3xl bg-white/65 border border-[#e2eafc] flex flex-col justify-between">
               <div>
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-[10px] font-mono text-slate-500 uppercase font-bold">Season 02 • Coming</span>
-                  <span className="text-xs bg-slate-50 text-slate-650 border border-slate-200 px-1.5 py-0.5 rounded font-bold font-mono">🍂 SHARAD</span>
-                </div>
-                <h3 className="text-xl font-black text-slate-900 tracking-tight mb-2">Sharad (शरद)</h3>
-                <span className="font-mono text-[11px] text-slate-500 block mb-4 font-bold">Oct – Dec 2026</span>
-                <p className="font-sans text-xs text-slate-950 font-medium leading-relaxed">
-                  Clarity, sharpness, and accelerated growth. Refining user onboarding funnels and expanding structural partner frameworks across the city.
-                </p>
-              </div>
-              <span className="text-[10px] font-mono text-slate-500 block pt-4 border-t border-slate-100 font-bold mt-6">
-                Autumn Cohort
-              </span>
-            </div>
-
-            {/* Season 3: Vasant */}
-            <div className="p-6 rounded-3xl bg-white/65 border border-[#e2eafc] flex flex-col justify-between">
-              <div>
-                <div className="flex items-center justify-between mb-4">
-                  <span className="text-[10px] font-mono text-slate-500 uppercase font-bold">Season 03 • Coming</span>
                   <span className="text-xs bg-slate-50 text-slate-650 border border-slate-200 px-1.5 py-0.5 rounded font-bold font-mono">🌸 VASANT</span>
                 </div>
                 <h3 className="text-xl font-black text-slate-900 tracking-tight mb-2">Vasant (वसन्त)</h3>
-                <span className="font-mono text-[11px] text-slate-500 block mb-4 font-bold">Jan – Mar 2027</span>
+                <span className="font-mono text-[11px] text-slate-500 block mb-4 font-bold">Jan – Apr 2027</span>
                 <p className="font-sans text-xs text-slate-950 font-medium leading-relaxed">
-                  Bloom, expansion, and new ideas. Launching creative social sub-networks and scaling offline hyper-local forums.
+                  Bloom, expansion, and pioneering new ideas. Launching creative social sub-networks and scaling offline hyper-local forums in the city.
                 </p>
               </div>
               <span className="text-[10px] font-mono text-slate-500 block pt-4 border-t border-slate-100 font-bold mt-6">
@@ -555,21 +537,21 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
               </span>
             </div>
 
-            {/* Season 4: Grishma */}
+            {/* Season 3: Varsha */}
             <div className="p-6 rounded-3xl bg-white/65 border border-[#e2eafc] flex flex-col justify-between">
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-[10px] font-mono text-slate-500 uppercase font-bold">Season 04 • Coming</span>
-                  <span className="text-xs bg-slate-50 text-slate-650 border border-slate-200 px-1.5 py-0.5 rounded font-bold font-mono">☀️ GRISHMA</span>
+                  <span className="text-[10px] font-mono text-slate-500 uppercase font-bold">Season 03 • Coming</span>
+                  <span className="text-xs bg-slate-50 text-slate-650 border border-slate-200 px-1.5 py-0.5 rounded font-bold font-mono">🌧️ VARSHA</span>
                 </div>
-                <h3 className="text-xl font-black text-slate-900 tracking-tight mb-2">Grishma (ग्रीष्म)</h3>
-                <span className="font-mono text-[11px] text-slate-500 block mb-4 font-bold">Apr – Jun 2027</span>
+                <h3 className="text-xl font-black text-slate-900 tracking-tight mb-2">Varsha (वर्षा)</h3>
+                <span className="font-mono text-[11px] text-slate-500 block mb-4 font-bold">May – Aug 2027</span>
                 <p className="font-sans text-xs text-slate-950 font-medium leading-relaxed">
-                  Intensity, heat, and peak performance. Optimising latency, consolidating databases, and executing hyper-growth marketing activations.
+                  The beginning of raw energy. Deploying foundational tools, primary content networks, and executing hyper-growth marketing activations across Hyderabad.
                 </p>
               </div>
               <span className="text-[10px] font-mono text-slate-500 block pt-4 border-t border-slate-100 font-bold mt-6">
-                Summer Cohort
+                Monsoon Cohort
               </span>
             </div>
 

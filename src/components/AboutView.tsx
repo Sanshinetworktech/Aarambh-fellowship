@@ -215,19 +215,19 @@ export default function AboutView() {
               </div>
             </div>
 
-            {/* System 3: WiseIn Key */}
+            {/* System 3: Tapby */}
             <div className="p-8 rounded-3xl bg-white border border-[#e2eafc] shadow-3xs flex flex-col md:flex-row gap-8 items-start hover:border-blue-300 transition-all">
               <div className="w-12 h-12 bg-blue-50 border border-blue-105 rounded-2xl flex items-center justify-center text-blue-600 shrink-0 shadow-2xs">
                 <Key className="w-6 h-6" />
               </div>
               <div>
                 <h3 className="text-xl font-bold text-slate-955 tracking-tight mb-1 flex items-center gap-3">
-                  <span>WiseIn Key</span>
+                  <span>Tapby</span>
                   <span className="text-[10px] tracking-wide font-mono bg-blue-50 text-blue-700 border border-blue-100 px-2.5 py-0.5 rounded font-black uppercase">HYDERABAD · LIVE</span>
                 </h3>
-                <span className="text-xs text-slate-400 block mb-4">Offline Membership Access Card</span>
+                <span className="text-xs text-slate-400 block mb-4">Offline Access System (TapbyWiseaIN)</span>
                 <p className="text-xs sm:text-sm text-slate-950 font-semibold leading-relaxed mb-6">
-                  WiseIn Key is a private offline access system for verified founders and high-performing operators in Hyderabad. Key holders receive a physical and digital access pass that grants them entry into Sanshi's private event ecosystem.
+                  Tapby is a private offline access system for verified founders and high-performing operators in Hyderabad. Pass holders receive a physical and digital access pass that grants them entry into Sanshi's private event ecosystem.
                 </p>
                 <div className="space-y-3 pl-4 border-l-2 border-slate-100 text-xs sm:text-sm text-slate-955 font-medium">
                   <p><strong>Guaranteed Invitation:</strong> Compliment RSVP entry to every Wednesday Brutal Stories session.</p>
@@ -288,7 +288,7 @@ export default function AboutView() {
             <div className="p-6 rounded-2xl bg-slate-50/50 border border-slate-100 hover:bg-white transition-all">
               <h4 className="font-sans text-sm font-bold text-slate-900 mb-2">Precompiled Community</h4>
               <p className="text-xs text-slate-955 font-semibold leading-relaxed">
-                WiseIn Key's offline network is being built city-first in Hyderabad. The events, meetings, and expos are already happening here. National expansion follows, but Hyderabad is the sandbox.
+                Tapby's offline network is being built city-first in Hyderabad. The events, meetings, and expos are already happening here. National expansion follows, but Hyderabad is the sandbox.
               </p>
             </div>
 
