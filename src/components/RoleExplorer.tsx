@@ -267,7 +267,7 @@ export const RoleExplorer: React.FC = () => {
                   Specifications
                 </button>
                 <a
-                  href="https://wisein.in/jobs"
+                  href="https://wisein.in"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-mono text-[9.5px] uppercase font-bold tracking-wider rounded transition-all duration-200 cursor-pointer text-center flex items-center justify-center gap-1 shadow-xs"
@@ -521,7 +521,7 @@ export const RoleExplorer: React.FC = () => {
                       </button>
 
                       <a
-                        href="https://wisein.in/jobs"
+                        href="https://wisein.in"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 px-6 py-2.5 bg-blue-600 text-white hover:bg-blue-750 font-sans text-xs font-bold rounded uppercase transition-all shadow-xs cursor-pointer"

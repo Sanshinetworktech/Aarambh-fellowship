@@ -104,7 +104,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
             className="flex flex-col sm:flex-row gap-4 items-center justify-center w-full max-w-md px-4 mb-16"
           >
             <a
-              href="https://wisein.in/jobs"
+              href="https://wisein.in"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-blue-600 text-white hover:bg-blue-750 font-sans text-xs font-bold uppercase rounded-lg shadow-md shadow-blue-500/10 cursor-pointer transition-all duration-300"
@@ -155,14 +155,14 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
               <div className="overflow-hidden rounded-2xl bg-slate-100 aspect-16/10 mb-3 border border-slate-100 shadow-2xs group-hover:shadow-xs transition-all duration-300">
                 <img 
                   src={wiseInBedroom} 
-                  alt="Built from a Bedroom in Hyderabad" 
+                  alt="Built from a Bedroom in Pittsburgh, USA" 
                   className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500"
                   referrerPolicy="no-referrer"
                 />
               </div>
               <div className="flex items-start justify-between gap-2 px-1">
                 <div>
-                  <h4 className="text-xs sm:text-sm font-bold text-slate-900">Built from a Bedroom in Hyderabad</h4>
+                  <h4 className="text-xs sm:text-sm font-bold text-slate-900">Built from a Bedroom in Pittsburgh, USA</h4>
                   <p className="text-[11px] text-slate-500 font-medium font-mono">WiseIn History · Product Conceptualization</p>
                 </div>
                 <Users className="w-3.5 h-3.5 text-slate-300 mt-1 shrink-0" />
@@ -284,7 +284,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
             </h2>
             <div className="text-base sm:text-lg text-slate-955 font-semibold space-y-4 leading-relaxed">
               <p>
-                <strong className="text-black font-extrabold block text-xl mb-1">Aarambh — आरम्भ — means beginning.</strong>
+                <strong className="text-black font-extrabold block text-xl mb-1">Aarambh - आरम्भ - means beginning.</strong>
                 The fellowship is built on a simple belief: people learn fastest when trusted with real responsibility.
               </p>
               <p>
@@ -408,7 +408,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
                 </h3>
                 <span className="font-sans text-xs text-slate-400 block mb-4">Verified Professional Network</span>
                 <p className="font-sans text-sm text-slate-950 font-medium leading-relaxed mb-6">
-                  India's verified professional network. Aadhaar-verified profiles, direct video connections, paid knowledge sessions, and AI-assisted matching across multiple sectors — teachers, officers, agriculturists, and tech architects. Supported by active paid subscribers.
+                  India's verified professional network. Aadhaar-verified profiles, direct video connections, paid knowledge sessions, and AI-assisted matching across multiple sectors: teachers, officers, agriculturists, and tech architects. Supported by active paid subscribers.
                 </p>
               </div>
               <a
@@ -782,7 +782,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
 
           <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
             <a
-              href="https://wisein.in/jobs"
+              href="https://wisein.in"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-10 py-4.5 bg-blue-600 text-white hover:bg-blue-755 text-xs font-bold uppercase tracking-wider rounded-lg transition-all"

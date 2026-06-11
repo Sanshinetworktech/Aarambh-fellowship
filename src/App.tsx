@@ -10,13 +10,15 @@ import {
   ExternalLink, 
   Activity 
 } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react";
 
 import HomeView from "./components/HomeView";
 import AboutView from "./components/AboutView";
 import FellowshipView from "./components/FellowshipView";
 import ApplyView from "./components/ApplyView";
+import WikiView from "./components/WikiView";
 
-type PageType = "home" | "about" | "fellowship" | "apply";
+type PageType = "home" | "about" | "fellowship" | "apply" | "wiki";
 
 export default function App() {
   const [activePage, setActivePage] = useState<PageType>("home");
@@ -34,6 +36,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-white text-slate-900 flex flex-col font-sans selection:bg-blue-100 selection:text-blue-950">
+      <Analytics />
       
       {/* ── STICKY NAVIGATION HEADER ───────────────────────────────── */}
       <header className="sticky top-0 z-45 bg-white/95 backdrop-blur-md border-b border-slate-100 transition-all select-none">
@@ -90,6 +93,16 @@ export default function App() {
                 }`}
               >
                 Fellowship
+              </button>
+              <button
+                onClick={() => handleNavigate("wiki")}
+                className={`px-4 py-1.5 text-[10.5px] font-black uppercase tracking-wider rounded-full transition-all cursor-pointer ${
+                  activePage === "wiki" 
+                  ? "bg-blue-600 text-white shadow-xs" 
+                  : "text-slate-650 hover:text-blue-600"
+                }`}
+              >
+                Wi-Ki Key
               </button>
               <button
                 onClick={() => handleNavigate("apply")}
@@ -164,6 +177,14 @@ export default function App() {
             >
               Apply Now
             </button>
+            <button
+              onClick={() => handleNavigate("wiki")}
+              className={`block w-full text-left py-2 px-3 rounded-lg text-xs font-black uppercase ${
+                activePage === "wiki" ? "bg-blue-50 text-blue-750 font-black" : "text-slate-700"
+              }`}
+            >
+              Wi-Ki Key
+            </button>
             
             <div className="pt-4 border-t border-slate-200">
               <a
@@ -186,6 +207,7 @@ export default function App() {
         {activePage === "about" && <AboutView />}
         {activePage === "fellowship" && <FellowshipView />}
         {activePage === "apply" && <ApplyView />}
+        {activePage === "wiki" && <WikiView />}
       </main>
 
       {/* ── CORPORATE FOOTER ──────────────────────────────────────── */}

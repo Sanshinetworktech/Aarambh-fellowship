@@ -154,7 +154,7 @@ export const AdmissionPathway: React.FC = () => {
         {/* Core Quick Application trigger */}
         <div className="text-center">
           <a
-            href="https://wisein.in/jobs"
+            href="https://wisein.in"
             target="_blank"
             referrerPolicy="no-referrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-blue-600 hover:bg-blue-750 text-white font-sans text-sm font-bold uppercase rounded-sm shadow-xs transition-all cursor-pointer group"

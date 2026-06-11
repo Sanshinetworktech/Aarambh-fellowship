@@ -48,7 +48,7 @@ export default function ApplyView() {
     },
     {
       q: "Is Varsha the only open season?",
-      a: "Varsha — Season 1 — is the currently active cohort starting July 1, 2026. Sharad, Vasant, and Grishma applications open on a rolling basis. Register your interest for future seasons via email."
+      a: "Varsha - Season 1 - is the currently active cohort starting July 1, 2026. Sharad, Vasant, and Grishma applications open on a rolling basis. Register your interest for future seasons via email."
     }
   ];
 
@@ -541,7 +541,7 @@ export default function ApplyView() {
           </p>
 
           <a
-            href="https://wisein.in/jobs"
+            href="https://wisein.in"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-8 py-3.5 bg-blue-600 text-white hover:bg-blue-700 text-xs font-bold uppercase tracking-wider rounded-lg transition-all shadow-xs cursor-pointer"

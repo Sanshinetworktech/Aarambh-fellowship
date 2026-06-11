@@ -60,7 +60,7 @@ export default function AboutView() {
       <div className="bg-white py-20 border-b border-slate-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-base sm:text-lg text-slate-955 font-semibold leading-relaxed mb-8">
-            Aarambh is not a standalone program. It is the operational core of <strong className="text-slate-900 font-extrabold">Sanshi Network Tech Private Limited</strong> — a Hyderabad-based technology company building India's verified professional infrastructure. To understand Aarambh, you must first understand why Sanshi exists.
+            Aarambh is not a standalone program. It is the operational core of <strong className="text-slate-900 font-extrabold">Sanshi Network Tech Private Limited</strong>, a Hyderabad-based technology company building India's verified professional infrastructure. To understand Aarambh, you must first understand why Sanshi exists.
           </p>
           <div className="h-[1px] w-full bg-[#e2eafc]" />
         </div>
@@ -85,7 +85,7 @@ export default function AboutView() {
               Unverified credentials circulate freely. Ghost networks inflate follower counts. Performative profiles substitute for real professional identity. A doctor cannot easily find a verified agriculturist to consult. A tech architect has no reliable way to connect with a verified government officer. A teacher with two decades of domain expertise has no professional identity that the internet recognises as real.
             </p>
             <p>
-              Sanshi Network Tech Private Limited was founded to solve this. We build verified professional infrastructure — systems where every profile is authenticated at the Aadhaar level, every connection is between real, identified people, and every knowledge exchange carries the weight of a verified professional identity behind it.
+              Sanshi Network Tech Private Limited was founded to solve this. We build verified professional infrastructure: systems where every profile is authenticated at the Aadhaar level, every connection is between real, identified people, and every knowledge exchange carries the weight of a verified professional identity behind it.
             </p>
             <p className="font-semibold text-slate-955">
               We are not building another social network. We are building the trust layer that India's professional ecosystem has been missing.
@@ -109,7 +109,7 @@ export default function AboutView() {
                 <strong className="text-slate-900 font-extrabold">Sanshi Network Tech Private Limited</strong> is a registered technology company headquartered in Hyderabad, Telangana, India.
               </p>
               <p className="text-xs sm:text-sm text-slate-950 font-semibold leading-relaxed">
-                We operate at the intersection of three disciplines: verified digital identity, professional networking, and live knowledge distribution. Our products are not experimental — they are live, operational systems with active users, active subscribers, and active events running every week.
+                We operate at the intersection of three disciplines: verified digital identity, professional networking, and live knowledge distribution. Our products are not experimental; they are live, operational systems with active users, active subscribers, and active events running every week.
               </p>
             </div>
 
@@ -133,18 +133,6 @@ export default function AboutView() {
             </div>
           </div>
 
-          {/* Srishta founder block quotation */}
-          <div className="relative p-8 rounded-3xl bg-blue-50/50 border border-blue-100 flex gap-4 items-start">
-            <Quote className="w-8 h-8 text-blue-300 shrink-0 mt-1" />
-            <div>
-              <p className="font-sans italic text-base sm:text-lg text-slate-950 font-extrabold mb-4">
-                "The world does not need more practitioners who specialize in reciting models. It demands makers who have deployed things that endure."
-              </p>
-              <span className="text-xs font-mono text-blue-650 font-black uppercase tracking-wider block">
-                — Srishta, Founder & Managing Director
-              </span>
-            </div>
-          </div>
 
         </div>
       </div>
@@ -157,7 +145,7 @@ export default function AboutView() {
             <h2 className="text-2xl sm:text-3xl font-extrabold font-sans text-slate-950 tracking-tight">OUR MISSION</h2>
           </div>
           <p className="text-base sm:text-lg text-slate-955 font-semibold leading-relaxed mb-6">
-            Build the verified professional infrastructure that lets every working Indian — teacher, officer, agriculturist, tech architect, founder — establish a trusted, permanent professional identity and connect with others at the same level of trust.
+            Build the verified professional infrastructure that lets every working Indian (teacher, officer, agriculturist, tech architect, founder) establish a trusted, permanent professional identity and connect with others at the same level of trust.
           </p>
           <p className="text-xs sm:text-sm text-slate-950 font-semibold leading-relaxed">
             We are starting in Hyderabad. We are expanding nationally. The fellows we train through Aarambh are the operators who will carry that expansion forward.
@@ -195,7 +183,7 @@ export default function AboutView() {
                 </h3>
                 <span className="text-xs text-slate-400 block mb-4">India's Verified Professional Network</span>
                 <p className="text-xs sm:text-sm text-slate-950 font-semibold leading-relaxed mb-6">
-                  WiseIn is the flagship product of Sanshi Network Tech. Every user is authenticated via Aadhaar before their profile is activated. This means every connection on WiseIn is between two verified, real, identified people — not anonymous accounts or unverified personas.
+                  WiseIn is the flagship product of Sanshi Network Tech. Every user is authenticated via Aadhaar before their profile is activated. This means every connection on WiseIn is between two verified, real, identified people, not anonymous accounts or unverified personas.
                 </p>
                 <div className="space-y-3 pl-4 border-l-2 border-slate-100 text-xs sm:text-sm text-slate-950 font-medium">
                   <p><strong>Aadhaar Authentications:</strong> High-trust profiles established safely.</p>
@@ -286,7 +274,7 @@ export default function AboutView() {
             <div className="p-6 rounded-2xl bg-slate-50/50 border border-slate-100 hover:bg-white transition-all">
               <h4 className="font-sans text-sm font-bold text-slate-900 mb-2">Startup density</h4>
               <p className="text-xs text-slate-950 font-semibold leading-relaxed">
-                Hyderabad has one of India's most active and concentrated startup ecosystems. The density of verified founders, operators, and builders in this city is disproportionately high — exactly the audience WiseIn is built for.
+                Hyderabad has one of India's most active and concentrated startup ecosystems. The density of verified founders, operators, and builders in this city is disproportionately high - exactly the audience WiseIn is built for.
               </p>
             </div>
 
@@ -326,7 +314,7 @@ export default function AboutView() {
           </p>
           <div className="flex justify-center gap-4">
             <a
-              href="https://wisein.in/jobs"
+              href="https://wisein.in"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 bg-blue-600 text-white hover:bg-blue-750 text-xs font-bold uppercase tracking-wider rounded-lg transition-all shadow-xs cursor-pointer"

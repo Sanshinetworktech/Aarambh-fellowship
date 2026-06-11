@@ -26,7 +26,7 @@ export const ProgramDynamics: React.FC = () => {
             
             <div className="space-y-5 text-slate-955 font-sans text-sm sm:text-base font-semibold leading-relaxed">
               <p>
-                <strong className="text-black font-extrabold text-lg block mb-1">Aarambh — आरम्भ — means beginning.</strong>
+                <strong className="text-black font-extrabold text-lg block mb-1">Aarambh - आरम्भ - means beginning.</strong>
                 The fellowship is built on a simple belief:
               </p>
               
@@ -253,7 +253,7 @@ export const ProgramDynamics: React.FC = () => {
                         Selected Cycle
                       </span>
                       <h3 className="text-xl sm:text-2xl font-sans text-slate-950 font-extrabold h-7">
-                        {activeSeasonData.name} — {activeSeasonData.title}
+                        {activeSeasonData.name} - {activeSeasonData.title}
                       </h3>
                     </div>
                     <span className="font-mono text-xs text-blue-700 bg-blue-50 py-1.5 px-3 border border-blue-100 rounded">

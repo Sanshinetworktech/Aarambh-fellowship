@@ -41,12 +41,12 @@ export default function FellowshipView() {
     switch (roleId) {
       case "sutradhara":
         return {
-          detail: "The single coordination nerve of the entire cohort. Sutradhara holds every operational thread — across all ten fellows, all three products, and the founder. You run Monday kickoffs, review the Zoho board daily, file the weekly founder report every Friday, and ensure no fellow is blocked, confused, or without a clear weekly priority. The founder should never be surprised by anything.",
+          detail: "The single coordination nerve of the entire cohort. Sutradhara holds every operational thread, spanning across all ten fellows, all three products, and the founder. You run Monday kickoffs, review the Zoho board daily, file the weekly founder report every Friday, and ensure no fellow is blocked, confused, or without a clear weekly priority. The founder should never be surprised by anything.",
           owns: "Zoho board · Notion workspace · Monday kickoffs · Weekly founder report · Cross-team dependency resolution · Performance visibility"
         };
       case "dutapravesh":
         return {
-          detail: "The revenue engine. Every rupee of new WiseIn MRR begins with your outreach. You go first — 20+ personalised outreaches per day across LinkedIn, WhatsApp, and email. You source and confirm one Brutal Stories guest every week. You grow the WiseIn Key waitlist. You hand every warm lead to Artha Siddhi with full context. Zero cold handoffs.",
+          detail: "The revenue engine. Every rupee of new WiseIn MRR begins with your outreach. You go first, initiating 20+ personalised outreaches per day across LinkedIn, WhatsApp, and email. You source and confirm one Brutal Stories guest every week. You grow the WiseIn Key waitlist. You hand every warm lead to Artha Siddhi with full context. Zero cold handoffs.",
           owns: "Top-of-funnel pipeline · Brutal Stories guest sourcing · Founder Key waitlist · Lead qualification · Zoho CRM accuracy"
         };
       case "arthasiddhi":
@@ -71,7 +71,7 @@ export default function FellowshipView() {
         };
       case "koshaadhikari":
         return {
-          detail: "Every rupee that moves — in or out — is logged by you the same day. You confirm Wednesday's venue by Monday morning every week without exception. You process fellow reimbursements within 48 hours. You produce the monthly ledger on the 1st without being asked. Nothing operational should ever break because of logistics.",
+          detail: "Every rupee that moves (whether in or out) is logged by you the same day. You confirm Wednesday's venue by Monday morning every week without exception. You process fellow reimbursements within 48 hours. You produce the monthly ledger on the 1st without being asked. Nothing operational should ever break because of logistics.",
           owns: "Same-day financial logging · Reimbursement processing · Venue confirmation · Vendor management · Monthly ledger · Expo logistics"
         };
       case "nirmata":
@@ -81,12 +81,12 @@ export default function FellowshipView() {
         };
       case "megha":
         return {
-          detail: "You keep WiseIn completely live and operational at all times. CI/CD pipelines. AWS infrastructure — EC2, RDS, auto-scaling. Docker and Kubernetes. Sentry error monitoring. Database backups. Zero downtime when members are active. If WiseIn goes down, it is your responsibility to bring it back.",
+          detail: "You keep WiseIn completely live and operational at all times. CI/CD pipelines. AWS infrastructure: EC2, RDS, auto-scaling. Docker and Kubernetes. Sentry error monitoring. Database backups. Zero downtime when members are active. If WiseIn goes down, it is your responsibility to bring it back.",
           owns: "AWS infrastructure · CI/CD pipelines · Staging environment · Auto-scaling · Database backups · Monitoring and alerts · Uptime reliability"
         };
       case "yantra":
         return {
-          detail: "You build the WiseIn mobile application on React Native — a single shared codebase for iOS and Android. Dynamic profiles, exploration feed, video connections, booking systems, and push notification infrastructure. Published on the App Store and Google Play. Every feature reaches real users on their phones.",
+          detail: "You build the WiseIn mobile application on React Native: a single shared codebase for iOS and Android. Dynamic profiles, exploration feed, video connections, booking systems, and push notification infrastructure. Published on the App Store and Google Play. Every feature reaches real users on their phones.",
           owns: "React Native codebase · iOS and Android builds · App Store and Play Store submissions · Mobile UX flows · Push notification systems · Native bridge integrations"
         };
       default:
@@ -220,7 +220,7 @@ export default function FellowshipView() {
               The 13-Week Rhythm
             </h2>
             <p className="text-sm sm:text-base text-slate-950 font-bold leading-relaxed">
-              We run a highly coordinated weekly schedule. Same structure, every week, for 13 consecutive weeks. Consistency is not a preference — it is the operational discipline that makes execution at this pace possible.
+              We run a highly coordinated weekly schedule. Same structure, every week, for 13 consecutive weeks. Consistency is not a preference - it is the operational discipline that makes execution at this pace possible.
             </p>
           </div>
 
@@ -285,7 +285,7 @@ export default function FellowshipView() {
             <div className="flex flex-col items-center">
               <div className="w-1.5 h-6 bg-slate-200" />
               <div className="px-4 py-2 rounded bg-blue-100 border border-blue-200 text-blue-700 font-black uppercase text-[11px]">
-                Sutradhara ( सूत्रधार ) — Main Program Manager
+                Sutradhara ( सूत्रधार ) - Main Program Manager
               </div>
               <div className="w-1.5 h-6 bg-slate-200" />
             </div>
@@ -373,7 +373,7 @@ export default function FellowshipView() {
                           {selectedRoleData.category} Track • Active Role Specification
                         </span>
                         <h3 className="text-2xl font-black text-slate-950 tracking-tight font-sans">
-                          {prose.name || selectedRoleData.name} — {prose.title || selectedRoleData.title}
+                          {prose.name || selectedRoleData.name} - {prose.title || selectedRoleData.title}
                         </h3>
                       </div>
                       <span className="inline-block self-start font-mono text-[10px] font-bold text-blue-700 bg-blue-150 border border-blue-200 px-3 py-1 rounded uppercase tracking-wider">
@@ -488,7 +488,7 @@ export default function FellowshipView() {
                         </button>
 
                         <a
-                          href="https://wisein.in/jobs"
+                          href="https://wisein.in"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 px-6 py-2 bg-blue-600 text-white hover:bg-blue-755 font-sans text-xs font-bold rounded uppercase transition-all shadow-xs cursor-pointer"
@@ -611,7 +611,7 @@ export default function FellowshipView() {
                 <span className="font-mono text-[10px] text-blue-650 font-black tracking-wider uppercase block mb-3">Perk 08</span>
                 <h4 className="font-sans text-base font-bold text-slate-900 mb-2">Zoho Workspace Access</h4>
                 <p className="text-xs sm:text-sm text-slate-950 font-semibold leading-relaxed">
-                  Custom @wisein.in email address and enterprise-level access to the full Zoho software suite — Projects, CRM, Desk, Mail, and Books — from Day 1.
+                  Custom @wisein.in email address and enterprise-level access to the full Zoho software suite: Projects, CRM, Desk, Mail, and Books, from Day 1.
                 </p>
               </div>
             </div>
