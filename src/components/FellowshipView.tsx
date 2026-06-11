@@ -651,27 +651,27 @@ export default function FellowshipView() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
             <div className="flex items-center gap-3 p-4 rounded-xl bg-slate-50 border border-slate-100">
-              <span className="font-mono text-[10px] text-blue-700 font-black bg-blue-10 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200">1</span>
+              <span className="font-mono text-[10px] text-blue-700 font-black bg-blue-50 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200">1</span>
               <span className="font-mono text-xs text-slate-950 capitalize font-bold">Systems worked on</span>
             </div>
             <div className="flex items-center gap-3 p-4 rounded-xl bg-slate-50 border border-slate-100">
-              <span className="font-mono text-[10px] text-blue-700 font-black bg-blue-10 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200">2</span>
-              <span className="font-mono text-xs text-slate-950 capitalize font-bold">Decisions made and why</span>
+              <span className="font-mono text-[10px] text-blue-700 font-black bg-blue-50 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200">2</span>
+              <span className="font-mono text-xs text-slate-955 capitalize font-bold">Decisions made and why</span>
             </div>
             <div className="flex items-center gap-3 p-4 rounded-xl bg-slate-50 border border-slate-100">
-              <span className="font-mono text-[10px] text-blue-700 font-black bg-blue-10 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200">3</span>
+              <span className="font-mono text-[10px] text-blue-700 font-black bg-blue-50 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200">3</span>
               <span className="font-mono text-xs text-slate-955 capitalize font-bold">Execution outcomes and metrics</span>
             </div>
             <div className="flex items-center gap-3 p-4 rounded-xl bg-slate-50 border border-slate-100">
-              <span className="font-mono text-[10px] text-blue-700 font-black bg-blue-10 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200">4</span>
+              <span className="font-mono text-[10px] text-blue-700 font-black bg-blue-50 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200">4</span>
               <span className="font-mono text-xs text-slate-955 capitalize font-bold">Failures encountered</span>
             </div>
             <div className="flex items-center gap-3 p-4 rounded-xl bg-slate-50 border border-slate-100">
-              <span className="font-mono text-[10px] text-blue-700 font-black bg-blue-10 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200">5</span>
+              <span className="font-mono text-[10px] text-blue-700 font-black bg-blue-50 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200">5</span>
               <span className="font-mono text-xs text-slate-955 capitalize font-bold">Lessons learned</span>
             </div>
             <div className="flex items-center gap-3 p-4 rounded-xl bg-slate-50 border border-slate-100">
-              <span className="font-mono text-[10px] text-blue-700 font-black bg-blue-10 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200">6</span>
+              <span className="font-mono text-[10px] text-blue-700 font-black bg-blue-50 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200">6</span>
               <span className="font-mono text-xs text-slate-955 capitalize font-bold">Observations for next cohort</span>
             </div>
           </div>
@@ -686,17 +686,17 @@ export default function FellowshipView() {
       {/* ── ZOHO OPERATIONS PROTOCOL ──────────────────────────────── */}
       <div className="bg-slate-50/20 py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="p-8 rounded-3xl bg-zinc-950 text-white flex gap-6 items-start border border-zinc-800">
-            <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-blue-500 shrink-0 mt-0.5">
+          <div className="p-8 rounded-3xl bg-blue-50/50 text-slate-900 flex gap-6 items-start border border-blue-100 animate-fade-in">
+            <div className="w-12 h-12 rounded-full bg-blue-100 border border-blue-200 flex items-center justify-center text-blue-700 shrink-0 mt-0.5">
               <AlertTriangle className="w-6 h-6" />
             </div>
             <div>
-              <h4 className="text-sm font-bold uppercase tracking-wider font-mono text-blue-400 mb-2">Zoho Operations Protocol</h4>
-              <p className="text-xs sm:text-sm text-slate-300 font-semibold leading-relaxed mb-4">
-                Every daily log, ticket, and blocker is tracked in Zoho. Fellows file tickets in Zoho Desk before <strong className="text-blue-400 font-bold">10:00 AM every working day without exception</strong>. 
+              <h4 className="text-sm font-bold uppercase tracking-wider font-mono text-blue-700 mb-2">Zoho Operations Protocol</h4>
+              <p className="text-xs sm:text-sm text-slate-850 font-bold leading-relaxed mb-4">
+                Every daily log, ticket, and blocker is tracked in Zoho. Fellows file tickets in Zoho Desk before <strong className="text-blue-700 font-extrabold">10:00 AM every working day without exception</strong>. 
               </p>
-              <p className="text-xs text-slate-450 font-mono leading-relaxed font-bold">
-                This prevents chat congestion, establishes a clean corporate audit trail, and ensures the founder and Sutradhara have full operational visibility. <strong className="text-blue-400 font-black">Missing a Zoho ticket is not a minor oversight. It is an operational failure.</strong>
+              <p className="text-xs text-slate-600 font-mono leading-relaxed font-bold">
+                This prevents chat congestion, establishes a clean corporate audit trail, and ensures the founder and Sutradhara have full operational visibility. <strong className="text-blue-700 font-black">Missing a Zoho ticket is not a minor oversight. It is an operational failure.</strong>
               </p>
             </div>
           </div>

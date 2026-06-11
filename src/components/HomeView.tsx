@@ -468,13 +468,13 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
 
           </div>
 
-          <div className="mt-12 p-6 rounded-2xl bg-zinc-900 text-white flex gap-4 items-start border border-zinc-800">
-            <div className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center border border-zinc-700 shrink-0 mt-0.5">
-              <span className="font-sans font-black text-blue-500 text-lg">!</span>
+          <div className="mt-12 p-6 rounded-2xl bg-blue-50/50 text-slate-900 flex gap-4 items-start border border-blue-100">
+            <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center border border-blue-200 shrink-0 mt-0.5">
+              <span className="font-sans font-black text-blue-700 text-lg">!</span>
             </div>
             <div>
-              <h4 className="text-sm font-bold uppercase tracking-wider font-mono text-blue-400 mb-1">Regulatory Declaration</h4>
-              <p className="text-xs text-slate-300 font-mono leading-relaxed font-semibold">
+              <h4 className="text-sm font-bold uppercase tracking-wider font-mono text-blue-700 mb-1">Regulatory Declaration</h4>
+              <p className="text-xs text-slate-700 font-mono leading-relaxed font-bold">
                 All three systems are operational corporate mechanisms managed by Sanshi Network Tech Private Limited. Unverified profiles, fake credentials, and academic simulators are systematically restricted. Real work has real liabilities and rewards.
               </p>
             </div>
